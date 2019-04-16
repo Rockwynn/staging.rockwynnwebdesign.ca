@@ -1,8 +1,3 @@
----
-title: Home
-template: home
-fieldset: home
-posts: 3
-id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
----
-Our latest blog posts:
+title: Login
+id: 82dc984b-6039-42f7-b323-a8fbb0699868
+template: login

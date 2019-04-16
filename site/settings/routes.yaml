@@ -1,9 +1,12 @@
 collections:
   blog: '/blog/{year}/{month}/{day}/{slug}'
   things: '/things/{slug}'
+  invoices: /invoices/{client}/{slug}
 taxonomies:
   tags: '/blog/tags/{slug}'
 routes:
+  /invoices: invoices/index
+  /invoices/{client}: invoices/client
   /blog/tags: blog/taxonomies
   /search: search
   /users: user/index
