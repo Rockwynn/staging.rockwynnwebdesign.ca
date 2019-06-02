@@ -1,8 +1,0 @@
-# Your Company Name
-name:
-
-# Your Company Icon/Avatar
-image:
-
-# Your Stripe Public KEy
-key: '{env:STRIPE_PUBLISHABLE_KEY}'

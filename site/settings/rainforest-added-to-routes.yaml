@@ -1,7 +1,0 @@
-collections:
-  invoices: /invoices/{client}/{slug}
-
-routes:
-  /invoices: invoices/index
-  /invoices/{client}: invoices/client
-  /login: auth/login

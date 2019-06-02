@@ -1,6 +1,0 @@
-{
-    "name": "wilderborn/rainmaker",
-    "require": {
-        "stripe/stripe-php": "3.*"
-    }
-}

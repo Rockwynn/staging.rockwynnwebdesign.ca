@@ -6,11 +6,3 @@ fields:
     display: Website Name
     instructions: The name of your website
     localizable: true
-title: Globals
-fields:
-  company:
-    type: text
-  rate:
-    type: text
-    mode: number
-    instructions: Your default hourly rate
