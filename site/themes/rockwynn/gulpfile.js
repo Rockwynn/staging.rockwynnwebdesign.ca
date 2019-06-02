@@ -1,5 +1,5 @@
 var elixir = require('laravel-elixir');
-var theme = 'redwood';
+var theme = 'rockwynn';
 elixir.config.assetsPath = './';
 elixir.config.publicPath = './';
 
@@ -21,5 +21,5 @@ elixir(function(mix) {
         'vendor/collage-plus.js',
         'vendor/zoom.js',
         'jabbascripts.js'
-    ], './js/redwood.js');
+    ], './js/rockwynn.js');
 });
