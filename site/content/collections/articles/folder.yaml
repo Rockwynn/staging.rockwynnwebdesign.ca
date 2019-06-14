@@ -1,0 +1,6 @@
+order: date
+fieldset: article
+template: article
+layout: default
+title: News
+section_title: News
