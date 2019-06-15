@@ -1,20 +1,46 @@
-<section class="regular">
 
-    <h1 class="special centered">
-        <small>The Statamic</small>
-        Redwood Theme
-    </h1>
+<div class="content bg-white pb-5 -mt-5">
 
-    <div class="centered">{{ content }}</div>
+    {{ partial:homehero :headline="" :subhead="" height="screen" show_topic="true" }}
 
-	<article class="list">
-		{{ collection:blog :limit="posts" scope="tag" }}
-			{{ partial:block }}
-		{{ /collection:blog }}
-	</article>
+    {{ story }}
+        {{ if type == "homehero" }}
+            {{ partial:homehero }}
+        {{ /if }}
 
-    <div class="read-more">
-        <a href="{{ link to='blog' }}">Read the rest of the blog</a>
-    </div>
+        {{ if type == "text" }}
+            <div class="{{ if first }}mt-3{{ /if }} px-2">
+                {{ text }}
+            </div>
+        {{ /if }}
 
-</section>
+        {{ if type == "image" }}
+            <img src="{{ image }}" class="mx-auto mt-5 block max-w-{{ size }}">
+            {{ if image | get:alt }}<p class="text-base text-grey-dark text-center mt-2 mb-5 italic">{{ image | get:alt }}</p>{{ /if }}
+        {{ /if }}
+
+        {{ if type == "video" }}
+        <div class="max-w-xl mx-auto">
+            <div class="video-embed">
+                {{ if video | is_embeddable }}
+                <iframe src="{{ video | embed_url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
+                {{ else }}
+                <video src="{{ video | embed_url }}"></video>
+                {{ /if }}
+            </div>
+        </div>
+        {{ /if }}
+
+        {{ if type == "two_col" }}
+        <div class="flex flex-wrap lg:max-w-xl mx-auto text-justify">
+            <div class="flex-1 min-w-xs p-4">
+                {{ col_one | markdown }}
+            </div>
+            <div class="flex-1 min-w-xs p-4">
+                {{ col_two | markdown }}
+            </div>
+        </div>
+        {{ /if }}
+    {{ /story }}
+
+</div>

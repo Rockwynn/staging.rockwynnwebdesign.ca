@@ -1,5 +1,5 @@
 ---
-title: Gallery
+title: Portfolio
 images:
   - /assets/img/black-bear-cubs.jpg
   - /assets/img/redwood-balance.jpg
@@ -15,4 +15,4 @@ template: gallery
 fieldset: gallery
 id: 3cd2d431-699c-417c-8d57-9183cd17a6fc
 ---
-I like to snap a few photos from time to time. These are those photos.
+A visual collection of the projects Rockwynn has completed.

@@ -1,12 +1,12 @@
-@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,900);
-@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);
+/*@import url(https://fonts.googleapis.com/css?family=Lato:400,300,400italic,900);
+@import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);*/
 body {
   background: #fff;
   color: #3c3c3c;
   font-family: "Lora", serif;
-  font-size: 18px;
+  font-family: Vollkorn, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-size: 20px;
 }
-
 .inline {
   display: inline;
 }
@@ -222,6 +222,7 @@ h4,
 h5,
 h6 {
   font-family: "Lato", sans-serif;
+  font-family: Vollkorn, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   font-weight: 900;
   letter-spacing: -.025em;
   margin: 0 0 32px -1px;
@@ -427,7 +428,7 @@ article.content iframe {
 }
 
 .block p {
-  font-family: "Lato", sans-serif;
+  font-family: Unica One;
   font-size: 18px;
   line-height: 1.5;
   font-weight: 300;

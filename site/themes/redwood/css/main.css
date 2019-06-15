@@ -692,7 +692,7 @@ nav a:hover {
 .content ul,
 .content ol,
 .content blockquote {
-  max-width: 40rem;
+  max-width: 70rem;
   margin-left: auto;
   margin-right: auto;
 }
@@ -2011,7 +2011,7 @@ nav a:hover {
 }
 
 .font-serif {
-  /* font-family: Vollkorn, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;*/
+  font-family: Vollkorn, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
 }
 
 .font-mono {
