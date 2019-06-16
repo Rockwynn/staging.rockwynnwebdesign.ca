@@ -1,7 +1,7 @@
 
 title: Home
 sub_title: Home subtitle
-background_image: /assets/rwd-ahcc-outlined.png
+background_image: https://rwd.imgix.net/rwd-ahcc-outlined.png?ch=Width,DPR&auto=compress,enhance,format&fit=fill&w=1400&h=700
 template: home
 fieldset: article
 layout: topnavonly
