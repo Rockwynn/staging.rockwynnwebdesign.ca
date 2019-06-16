@@ -6,29 +6,22 @@ fields:
   email:
     display: 'Email Address'
     validate: required|email
-  number:
-    display: 'Favorite Number'
-    validate: integer
+  phone:
+    display: Phone
   comment:
     display: Comment
+honeypot: state
 columns:
   - name
   - email
+  - phone
   - number
   - comment
 metrics:
   -
     type: total
     label: 'Total Responses'
-  -
-    type: sum
-    label: 'Sum of Favorite Number'
-    field: number
-  -
-    type: average
-    label: 'Average Favorite Number'
-    field: number
-    precision: 1
+
 email:
   -
     to: info@rockwynnwebdesign.ca

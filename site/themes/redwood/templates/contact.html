@@ -20,7 +20,7 @@
 
             {{ if success }}
                 <div class="alert alert-success">
-                    Form was submitted successfully.
+                    Thanks we'll be in touch as (super) humanly possible!
                 </div>
             {{ /if }}
 
@@ -35,12 +35,16 @@
             </div>
 
             <div class="form-group">
-                <label>Favorite Number</label>
-                <input type="number" name="number" value="{{ old:number }}" class="form-control" />
+                <label>Phone</label>
+                <input type="text" name="phone" value="{{ old:phone }}" class="form-control" />
             </div>
 
             <div class="form-group">
-                <label>Comment</label>
+                <input type="hidden" name="state"/>
+            </div>
+
+            <div class="form-group">
+                <label>Message</label>
                 <textarea name="comment" class="form-control">{{ old:comment }}</textarea>
             </div>
 
