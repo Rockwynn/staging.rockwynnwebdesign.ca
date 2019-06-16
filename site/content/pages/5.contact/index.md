@@ -1,5 +1,6 @@
 ---
 title: Contact
+hero-title: More than just a website
 subtitle: Build Your Brand Get New Business
 background_image: /assets/contact-hero.jpg
 template: contact

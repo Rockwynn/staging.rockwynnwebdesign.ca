@@ -26,6 +26,10 @@ fields:
       overlay: overlay
       soft-light: soft-light
       multiply: multiply
+  headline:
+    type: text
+  subhead:
+    type: text
   name:
     display: Name
     validate: 'required|min:2'

@@ -15,4 +15,4 @@ template: gallery
 fieldset: gallery
 id: 3cd2d431-699c-417c-8d57-9183cd17a6fc
 ---
-A visual collection of the projects Rockwynn has completed.
+A collection of Rockwynn's completed projects.

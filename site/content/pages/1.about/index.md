@@ -1,5 +1,5 @@
 ---
-title: About Me
+title: About
 sub_title: About me sandy
 template: about
 fieldset: about
