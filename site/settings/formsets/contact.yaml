@@ -32,6 +32,6 @@ metrics:
 email:
   -
     to: info@rockwynnwebdesign.ca
-    from: '{email}'
-    reply_to: '{email}'
+    from:
+    reply_to:
     subject: 'CONTACT FORM SUBMISSION RWD'
