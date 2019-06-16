@@ -15,7 +15,6 @@ columns:
   - name
   - email
   - phone
-  - number
   - comment
 metrics:
   -
@@ -25,6 +24,6 @@ metrics:
 email:
   -
     to: info@rockwynnwebdesign.ca
-    from:
-    reply_to:
-    subject: 'CONTACT FORM SUBMISSION RWD'
+    from: info@rockwynnwebdesign.ca
+    reply_to: '{{email}}'
+    subject: 'CONTACT FORM ROCKWYNN WEB DESIGN'
