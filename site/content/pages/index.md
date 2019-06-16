@@ -1,7 +1,7 @@
 
 title: Home
 sub_title: Home subtitle
-background_image: https://rwd.imgix.net/RWD-pink-ad-300-2251-1464.jpg?ch=Width,DPR&auto=compress,enhance,format&fit=fill&w=1400&h=700
+background_image: https://rwd.imgix.net/RWD-pink-ad-300-2251-1464.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: home
 fieldset: article
 layout: topnavonly
@@ -11,10 +11,9 @@ story:
   -
     type: text
     text: |
-      <h2>A sub heading which is not as important as the second, but should be used with consideration</h2>
+      <h3><span class="text-pink">CUSTOM WEB DESIGN</span> WHAT DOES YOUR ONLINE PRESENCE SAY ABOUT YOU?</h3>
       <p>
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-      When you have an itch to scratch that you can’t reach natively (talking about features here), you’ve always able to extend Statamic by creating an addon.</p><p>However, creating a whole addon, with all of it’s naming requirements and whatnot just to write (for example) 3 lines of PHP can be annoying and time consuming. With site helpers, you can just drop your code into a single file and call it a day.</p><p>With the Marketplace launch rapidly approaching, we are encouraging developers to treat addons as packages you may want to distribute. For single-site specific code, just use a helper. It’s quicker and cleaner, even if it does remind you of that one blogging-platform-you-swear-you’ll-never-use-again’s <em>functions.php</em> file.</p>
+      Most consumers will search for businesses online before visiting them in person, so it’s important to make a great first impression. We’ll show you the opportunities that a great website can create for your business, and help you craft an online presence that is responsive and appealing. Tell us your vision! We’ll work with you to design and develop a website that will help your business succeed.</p>
   -
     type: image
     size: xl

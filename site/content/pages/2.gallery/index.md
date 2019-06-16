@@ -13,6 +13,7 @@ images:
   - /assets/img/redwood-north-ridge-trail.jpg
 template: gallery
 fieldset: gallery
+layout: second-nav-hidden
 id: 3cd2d431-699c-417c-8d57-9183cd17a6fc
 ---
 A collection of Rockwynn's completed projects.

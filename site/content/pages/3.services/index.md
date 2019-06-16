@@ -1,6 +1,6 @@
 subtitle: 'my services subtitle'
-background_image: /assets/rwd-red-smoke-on-black-outlined-4752x1404.jpg
-background_color: '#000000'
+background_image: https://rwd.imgix.net/rwd-red-smoke-on-black-outlined-4752x1404.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
+background_color: '#FFFFFF'
 blend_mode: none
 story:
   -
