@@ -24,6 +24,6 @@ metrics:
 email:
   -
     to: info@rockwynnwebdesign.ca
-    from: '{{name}}'
+    from: '{{email}}'
     reply_to: '{{email}}'
     subject: 'CONTACT FORM ROCKWYNN WEB DESIGN'
