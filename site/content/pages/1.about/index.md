@@ -1,32 +1,31 @@
----
-sub_title: 'Welcome to Rockwynn Web Design'
-template: about
-fieldset: about
-layout: second-nav-hidden
+site_name: Rockwynn Web Design
 title: Company
-fun_facts:
-  - 'I grew up in West Virginia but moved to California in the mid 90s'
-  - 'My life is about as organized as the $5 DVD bin at Wal-Mart'
-  - 'My first computer was a Commodore 64'
-  - 'I''m a paper cut survivor'
-  - 'I have a restraining order against me from J.K. Rowling but I promise it''s just a misunderstanding'
-  - 'I hope one day I love something the way women in commercials love yogurt'
-  - 'I’m not smart. I just wear glasses.'
-column_one_image:
-  - https://rwd.imgix.net/webdesign.svg
-column_two_image:
-  - https://rwd.imgix.net/graphic-design.svg
-column_two: 'CUSTOM WEBSITE DESIGN A website is the foundation of your business'' online presence. That foundation should be both professional and personalized. Ready to start building a noticeable brand? We can get you there.'
-column_one: 'GRAPHIC DESIGN Website functionality is important, but so is its visual appeal. Our team specializes in graphic design, so that we can create an aesthetic that attracts attention and enhances your brand.'
-id: 72c016c6-cc0a-4928-b53b-3275f3f6da0a
-
-
-
----
-Rockwynn is a Sundridge based Web Design & Development Company serving customers from Canada and abroad.
-Founded in 2013, Rockwynn has consistently provided tailored website solutions to many clients including service businesses, manufacturing and the tourism industry.
-
-
-![sandy](https://rwd.imgix.net/sandy.jpg)
-
-My name is Sandy White.
+sub_title: 'Welcome'
+background_image: https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
+template: article
+fieldset: article
+layout: second-nav-hidden
+sub_title: My About Page
+background_color: '#ffffff'
+blend_mode: none
+id: 1d5f8444-de2c-4128-a28c-01c8d07929c4
+story:
+  -
+    type: text
+    text: |
+      <h2>Custom Web Design</h2><p>
+      Pellentesque habitant morbi r, even if it does remind you of that one blogging-platform-you-swear-you’ll-never-use-again’s <em>functions.php</em> file.</p>
+  -
+    type: image
+    size: xl
+    image: https://rwd.imgix.net/chuttersnap-297553.jpg
+  -
+    type: text
+    text: '<p>Later that day red. Grape things?</p><blockquote><p>You are destined for grape things.</p></blockquote><p>I woke to</p>'
+  -
+    type: video
+    video: 'https://vimeo.com/249226357'
+  -
+    type: two_col
+    col_one: 'But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a'
+    col_two: 'On the other hand, we denounce with righteous indignation and dislike men'
