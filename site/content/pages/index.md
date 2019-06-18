@@ -1,7 +1,7 @@
 
 title: Home
 sub_title: Home subtitle
-background_image: https://rwd.imgix.net/RWD-pink-ad-300-2251-1464.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
+background_image: https://rwd.imgix.net/homeBannerBackground.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: home
 fieldset: article
 layout: second-nav-hidden
