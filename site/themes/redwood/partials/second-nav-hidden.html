@@ -14,12 +14,13 @@
         <div class="collapse navbar-collapse" id="nav-main">
             <ul class="nav navbar-nav">
                 {{ nav from="/" include_home="true" scope="tag" }}
-                    <li{{ if is_current or is_parent }} class="active"{{ /if }}>
-                        <a href="{{ url }}">{{ tag:nav_title or title }}
-                        </a>
-                    </li>
+                <li{{ if is_current or is_parent }} class="active"{{ /if }}>
+                    <a href="{{ url }}">{{ tag:nav_title or title }}
+                    </a>
+                </li>
                 {{ /nav }}
             </ul>
+
             <!-- not using auth section -->
             <form class=" hidden navbar-form navbar-right" role="search" action="{{ link to='search' }}">
                 <div class="form-group">

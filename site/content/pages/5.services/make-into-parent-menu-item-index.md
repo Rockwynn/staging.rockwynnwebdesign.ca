@@ -1,25 +1,33 @@
 site_name: 'Rockwynn Web Design'
 title: Services
+headline: headline
+subtitle: 'subtitle'
 sub_title: 'Services sub title'
 template: services
 fieldset: article
-layout: topnavonly
+layout: second-nav-hidden
 subtitle: 'my services subtitle'
-background_image: https://rwd.imgix.net/rwd-red-smoke-on-black-outlined-4752x1404.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
+background_image: 'https://rwd.imgix.net/rwd-red-smoke-on-black-outlined-4752x1404.jpg?ch=DPR&auto=compress,enhance,format&fit=scale'
 background_color: '#FFFFFF'
 blend_mode: none
-id: 2231c75f-20c6-4a7e-9597-ed8c726b3450
+id: 3809f91e-6c23-4ed4-87a1-6cf26db89925
+
 story:
   -
     type: text
     text: |
-      <h2>A sub heading which is not as important as thd with consideration</h2><p>
-      Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.
-      When you have an itch to scratch that you can’t reach natively (talking about features here), you’ve always able to extend Statamic by creating an addon.</p><p>However, creating a whole addon, with all of it’s naming requirements and whatnot just to write (for example) 3 lines of PHP can be annoying and time consuming. With site helpers, you can just drop your code into a single file and call it a day.</p><p>With the Marketplace launch rapidly approaching, we are encouraging developers to treat addons as packages you may want to distribute. For single-site specific code, just use a helper. It’s quicker and cleaner, even if it does remind you of that one blogging-platform-you-swear-you’ll-never-use-again’s <em>functions.php</em> file.</p>
+      <h2>Graphic Design</h2><p>
+      we also offer custom printable solutions. Whether you need new business cards designed to include your new company logo, a customized brochure to promote your business, or digital and printable coupons to drive customers in to your store locations, our graphic department can take you from concept to completion.</p>
+      <p>Logo Design Create a strong brand identity with a memorable logo design from our team.</p>
+      <p>Business Cards Custom, unique business cards designed to express the essence of your business.</p>'
+
+      <h2>Custom Website Design</h2><p>
+      A website is the foundation of your business' online presence. That foundation should be both professional and personalized. Ready to start building a noticeable brand? We can get you there.</p>
+
   -
     type: image
     size: xl
-    image: https://rwd.imgix.net/chuttersnap-297553.jpg
+    image: 'https://rwd.imgix.net/chuttersnap-297553.jpg'
   -
     type: text
     text: '<p>Later that day I climbed this cliff face for a shot of the sunset and got stuck up there overnight. The medicine man appeared again, smelling even funnier than before. He told me I was destined for grape things. I was confused. And then he disappeared. Grape things?</p><blockquote><p>You are destined for grape things.</p></blockquote><p>I woke to a hot air balloon over my head. They swooped down and asked if I wanted a lift. When presented with adventure, you just say yes. That''s my motto. And up I went. I don''t remember anything else.</p>'

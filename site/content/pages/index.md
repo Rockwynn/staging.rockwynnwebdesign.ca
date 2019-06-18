@@ -4,7 +4,7 @@ sub_title: Home subtitle
 background_image: https://rwd.imgix.net/RWD-pink-ad-300-2251-1464.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: home
 fieldset: article
-layout: topnavonly
+layout: second-nav-hidden
 id: db0ae4e3-4f10-4802-bc40-0b880cbf02c7
 
 story:

@@ -1,6 +1,6 @@
 order: date
 fieldset: article
 template: article
-layout: default
+layout: second-nav-hidden
 title: News
 section_title: News

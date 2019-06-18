@@ -1,12 +1,14 @@
 site_name: Rockwynn Web Design
 title: Company
+headline: Welcome to Rockwynn
+subtitle: 'A full stack Web Development/Design & Graphic Design firm located in Sundridge.'
 sub_title: 'Welcome'
 background_image: https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: article
-fieldset: article
+fieldset: about
 layout: second-nav-hidden
 sub_title: My About Page
-background_color: '#ffffff'
+background_color: '#000000'
 blend_mode: none
 id: 1d5f8444-de2c-4128-a28c-01c8d07929c4
 story:
@@ -14,18 +16,18 @@ story:
     type: text
     text: |
       <h2>Custom Web Design</h2><p>
-      Pellentesque habitant morbi r, even if it does remind you of that one blogging-platform-you-swear-you’ll-never-use-again’s <em>functions.php</em> file.</p>
+      Rockwynn is a Sundridge based Web Design & Development Company serving customers from Canada and abroad. Founded in 2013, Rockwynn has consistently provided tailored website solutions to many clients including service businesses, manufacturing and the tourism industry.</p>
   -
     type: image
     size: xl
-    image: https://rwd.imgix.net/chuttersnap-297553.jpg
+    image: 'https://rwd.imgix.net/sandy.jpg'
   -
     type: text
-    text: '<p>Later that day red. Grape things?</p><blockquote><p>You are destined for grape things.</p></blockquote><p>I woke to</p>'
+    text: '<p></p><blockquote><p></p></blockquote><p></p>'
   -
     type: video
-    video: 'https://vimeo.com/249226357'
+    video: ''
   -
     type: two_col
-    col_one: 'But I must explain to you how all this mistaken idea of denouncing of a pleasure and praising pain was born and I will give you a'
-    col_two: 'On the other hand, we denounce with righteous indignation and dislike men'
+    col_one: ''
+    col_two: ''
