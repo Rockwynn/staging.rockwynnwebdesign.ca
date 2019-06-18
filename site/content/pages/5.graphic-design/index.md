@@ -1,9 +1,9 @@
 site_name: Rockwynn Web Design
 title: 'Graphic Design'
-headline: headline
+headline: Custom Graphic Design
 sub_title: 'sub_title'
 subtitle: 'Design makes you human. Great design makes you memorable.'
-background_image: https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=scale'
+background_image: https://rwd.imgix.net/graphic-design.jpg?ch=DPR&auto=compress,enhance,format&fit=scale'
 blend_mode: none
 fieldset: article
 template: article
