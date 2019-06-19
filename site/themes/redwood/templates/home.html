@@ -1,11 +1,93 @@
-
 <div class="content bg-white pb-5">
 
-    {{ partial:homehero :headline="" :subhead="" height="screen" show_topic="true" }}
+    {{ partial:hero-hscreen-mb6 :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
+
+
+
+<div class="how-section1 no-gutters">
+   <div class="row">
+      <div class="col-md-6">
+          <div class="col">
+              <h2>Stunning Design.</br>Solid Development.</h2>
+              <hr class="rounded">
+              <p>There is no compromise with Rockwynn, in the very best way – our philosophy is to treat every step in a project’s process as important as the next. We’ve assembled the best design and development team in Sundridge in order to deliver cutting-edge solutions using the latest and greatest technologies.</p>
+          </div>
+          <div>
+              <a class="" href="/services/">VIEW OUR SERVICES ></a>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <img src="/assets/coding.jpg">
+      </div>
+   </div>
+</div>
+
+<div class="how-section2 no-gutters">
+   <div class="row">
+      <div class="col-md-6">
+          <img src="/assets/DesignProcess-Infographic-1000px.jpg">
+      </div>
+      <div class="col-md-6">
+          <div class="col">
+              <h2>A systematic</br>approach</h2>
+              <hr class="rounded">
+              <p>Utilizing years of experience in project-based work, Rockwynn has developed a
+                  tried and trusted process that takes our clients’ business objectives and helps
+                  makes them a reality. Every component of the process has been specifically designed
+                  to allow for collaboration, facilitating client feedback into the process.</p>
+              <p>Our philosophy at Rockwynn is to build our websites around the content, rather than
+                  build an empty site and shoehorn content inside of it. In the end, the website needs
+                  to tell a story to the key audiences, and we want to know what the story is before
+                  we start to think about design.</p>
+          </div>
+          <div>
+              <a class="" href="/web-design/">VIEW OUR PROCESS ></a>
+          </div>
+      </div>
+   </div>
+</div>
+<div class="how-section3">
+    <div class="row">
+        <div class="col block">
+            <h2>Well-crafted, custom solutions</h2>
+            <hr class="rounded">
+            <p>As a company with a long history of building custom development solutions,
+                we know every client has different needs. We break down our main service
+                offerings into the following categories:</p>
+        </div>
+    </div>
+</div>
+<div class="how-section4 no-gutters">
+   <div class="row">
+      <div class="col-md-6">
+          <div class="block">
+              <h2>WEBSITE DESIGN</h2>
+              <p>We make beautiful, responsive websites that we’re proud of.
+                  Our designs are thoroughly researched, and follow a process
+                  of planning, wireframing and mockup design.</p>
+          </div>
+          <div>
+              <a class="" href="/web-design/">LEARN MORE ></a>
+          </div>
+      </div>
+      <div class="col-md-6">
+          <div class="block">
+              <h2>GRAPHIC DESIGN</h2>
+              <p>We are experts at creating graphics that speak to your audience. A well-designed graphic speaks
+                  better than words alone. Colors, pictures, and text creatively put together will strike the right
+                  emotional response from your viewers. We treat every creative design job as unique.</p>
+          </div>
+          <div>
+              <a class="" href="/graphic-design/">LEARN MORE ></a>
+          </div>
+      </div>
+   </div>
+</div>
+
 
     {{ story }}
-        {{ if type == "homehero" }}
-            {{ partial:homehero }}
+        {{ if type == "hero" }}
+            {{ partial:hero-hscreen-mb6 }}
         {{ /if }}
 
         {{ if type == "text" }}

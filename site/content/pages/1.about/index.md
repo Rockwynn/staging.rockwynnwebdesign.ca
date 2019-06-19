@@ -1,11 +1,11 @@
 site_name: Rockwynn Web Design
-title: Company
+title: About
 headline: Welcome to Rockwynn
-subtitle: 'A full stack Web Development/Design & Graphic Design firm located in Sundridge.'
+subhead: 'A full stack Web Development/Design & Graphic Design firm located in Sundridge.'
 sub_title: 'Welcome'
-background_image: https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
-template: article
-fieldset: about
+background_image: https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=max&max-w=1400
+template: about
+fieldset: article
 layout: second-nav-hidden
 sub_title: My About Page
 background_color: '#000000'

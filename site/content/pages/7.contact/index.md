@@ -1,7 +1,9 @@
 ---
-title: Contact
-hero-title: More than just a website
-subtitle: Build Your Brand  Get New Business
+title: Connect
+subtitle: sub_title
+sub_title: sub_title
+headline: More than just a website
+subhead: Build Your Brand Get New Business
 background_image: https://rwd.imgix.net/contact-hero.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: contact
 layout: second-nav-hidden

@@ -1,10 +1,10 @@
 <div class="content bg-white pb-5">
 
-    {{ partial:hero :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
+    {{ partial:hero-hscreen-mb6 :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
 
     {{ story }}
         {{ if type == "hero" }}
-            {{ partial:hero }}
+            {{ partial:hero-hscreen-mb6 }}
         {{ /if }}
 
         {{ if type == "text" }}

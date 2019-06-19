@@ -1,9 +1,13 @@
-<div class="bg-white text-purple relative overflow-hidden" style="background-color: {{ background_color }}">
-    <img src="{{ background_image }}" alt="">
+
+
+
+
+<div class="bg-white text-white relative overflow-hidden" style="background-color: {{ background_color }}">
+    <img src="{{ background_image }}" alt="" class="mix-{{ blend_mode or "none" }} pin fit w-full">
     <div class="absolute h-full w-full z-10 flex items-center text-center">
         <div class="flex-1 p-3">
-            <h1 class="leading-none mb-4"></h1>
-            <h2 class="font-subheading text-4xl"></h2>
+            <h1 class="leading-none mb-4">{{ headline }}</h1>
+            <h2 class="font-subheading text-4xl">{{ subhead }}</h2>
         </div>
     </div>
     <img class="fit mix-{{ blend_mode or 'none' }} w-full h-{{ height }}" src="{{ image }}" alt="{{ alt }}">

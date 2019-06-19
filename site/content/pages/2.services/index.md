@@ -1,7 +1,7 @@
 site_name: 'Rockwynn Web Design'
 title: Services
-headline: headline
-subtitle: 'subtitle'
+headline:
+subtitle:
 sub_title: 'Services sub title'
 template: services
 fieldset: article
