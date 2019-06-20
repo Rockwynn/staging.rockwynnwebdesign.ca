@@ -3,7 +3,7 @@ title: 'Graphic Design'
 headline:
 sub_title: 'sub_title'
 subtitle:
-background_image: https://rwd.imgix.net/transformation1600x646.jpg?ch=DPR&auto=compress,enhance,format&fit=clip
+background_image: https://rwd.imgix.net/transformation-1351.jpg?DPR&auto=compress,enhance,format
 
 blend_mode: none
 fieldset: article
