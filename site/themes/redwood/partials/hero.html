@@ -2,10 +2,11 @@
 
 
 
-<div class="bg-white text-white h-{{ height }} relative mb-6 overflow-hidden" style="background-color: {{ background_color }}">
+<div class="bg-white text-white h-{{ height }} relative overflow-hidden" style="background-color: {{ background_color }}">
     <img src="{{ background_image }}" alt="" class="mix-{{ blend_mode or "none" }} pin absolute fit h-{{ height }} w-full">
     <div class="absolute h-full w-full z-10 flex items-center text-center">
-        <div class="flex-1 p-3">
+        <div class="flex-1 p-3 h-87">
+            <img class="center" src="/assets/phoenix-rising1x1.png">
             <h1 class="leading-none mb-4">{{ headline }}</h1>
             <h2 class="font-subheading text-4xl">{{ subhead }}</h2>
         </div>

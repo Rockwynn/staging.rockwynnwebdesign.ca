@@ -17,9 +17,7 @@ story:
     type: text
     text: |
       <h2>Graphic Design</h2><p>
-      we also offer custom printable solutions. Whether you need new business cards designed to include your new company logo, a customized brochure to promote your business, or digital and printable coupons to drive customers in to your store locations, our graphic department can take you from concept to completion.</p>
-      <p>Logo Design Create a strong brand identity with a memorable logo design from our team.</p>
-      <p>Business Cards Custom, unique business cards designed to express the essence of your business.</p>'
+      we also offer custom printable solutions. Whether you need new business cards designed to include your new company logo, a customized brochure to promote your business, or digital and printable coupons to drive customers in to your store locations, our graphic department can take you from concept to completion.</p>'
 
       <h2>Custom Website Design</h2><p>
       A website is the foundation of your business' online presence. That foundation should be both professional and personalized. Ready to start building a noticeable brand? We can get you there.</p>

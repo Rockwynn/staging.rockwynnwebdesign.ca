@@ -1,7 +1,9 @@
 ---
 title: Home
 sub_title: Home subtitle
-background_image: https://rwd.imgix.net/RWD-pink-ad-300-2251-1464.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
+subhead: 'A full stack Web Development & Graphic Design firm</br> located in Sundridge.'
+headline: 'Welcome to Rockwynn'
+background_image: https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: home
 fieldset: article
 layout: second-nav-hidden
