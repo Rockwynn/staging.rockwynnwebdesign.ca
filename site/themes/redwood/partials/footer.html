@@ -1,9 +1,48 @@
 <footer class="page">
-    <div class="outer">
+    <div class="">
         <p class="copyright"><span>&copy; {{ now format="Y" }} {{ author_name }}</span>
             <span><a href="mailto:info@rockwynnwebdesign.ca"> | info@rockwynnwebdesign.ca</a></span>
             <span><a href="tel:+17053842644" rel="nofollow">| 705.384.2644</a></span>
         </p>
         <p class="tribute">Designed by Rockwynn Web Design</p>
     </div>
+        <nav class="navbar navbar-redwood">
+            <div class="container-fluid">
+                <div class="collapse navbar-collapse" id="nav-main">
+                    <ul class="nav navbar-nav">
+                        <li><a href="{{ link to='web-design-process' }}">Web Design Process</a></li>
+                        <li><a href="{{ link to='web-design-agreement' }}">Web Design Agreement</a></li>
+                        <li><a href="{{ link to='hosting-and-maintenance' }}">Hosting and Maintenance</a></li>
+                        <li><a href="{{ link to='terms-of-use' }}">Terms of Use</a></li>
+                        <li><a href="{{ link to='privacy-policy' }}">Privacy Policy</a></li>
+                        <li><a href="{{ link to='sitemap' }}">Sitemap</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
 </footer>
+
+<!--<div class="collapse navbar-collapse" id="nav-main">
+    <ul class="nav navbar-nav">
+        {{ nav from="/" include_home="true" scope="tag" }}
+            <li{{ if is_current or is_parent }} class="active"{{ /if }}>
+                <a href="{{ url }}">{{ tag:nav_title or title }}
+                </a>
+            </li>
+        {{ /nav }}
+    </ul>
+    <form class="navbar-form navbar-right" role="search" action="{{ link to='search' }}">
+        <div class="form-group">
+            <input type="text" class="form-control search" name="q" placeholder="Search">
+        </div>
+    </form>
+    <ul class="nav navbar-nav navbar-right">
+        {{ if logged_in }}
+            <li><a href="{{ link to='users' }}">Users</a></li>
+            <li><a href="{{ user:logout_url }}">Log out</a></li>
+        {{ else }}
+            <li><a href="{{ link to='login' }}">Log in</a></li>
+            <li><a href="{{ link to='register' }}">Register</a></li>
+        {{ /if }}
+    </ul>
+</div>-->

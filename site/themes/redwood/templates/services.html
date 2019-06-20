@@ -3,44 +3,46 @@
 
     {{ partial:hero-hscreen-mb6 :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
 
-    {{ story }}
-        {{ if type == "hero" }}
-            {{ partial:hero-hscreen-mb6 }}
-        {{ /if }}
+    <div class="how-section3">
+        <div class="row">
+            <div class="outer">
 
-        {{ if type == "text" }}
-            <div class="{{ if first }}mt-3{{ /if }} px-2">
-                {{ text }}
-            </div>
-        {{ /if }}
-
-        {{ if type == "image" }}
-            <img src="{{ image }}" class="mx-auto mt-5 block max-w-{{ size }}">
-            {{ if image | get:alt }}<p class="text-base text-grey-dark text-center mt-2 mb-5 italic"><!--{{ image | get:alt }}--></p>{{ /if }}
-        {{ /if }}
-
-        {{ if type == "video" }}
-        <div class="max-w-xl mx-auto">
-            <div class="video-embed">
-                {{ if video | is_embeddable }}
-                <iframe src="{{ video | embed_url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                {{ else }}
-                <video src="{{ video | embed_url }}"></video>
-                {{ /if }}
+                    <h2>Pricing</h2>
+                    <hr class="rounded">
+                    <p>The packages below are intended as a starting point for our web design services. This gives you a
+                        rough idea of the cost without having to contact us for pricing. Every customer is unique and your
+                        project has unique requirements. This is why we must discuss your project in detail before providing
+                        you with a written estimate. If you have some questions give us a call 1-705-384-2644.</p>
+                        <p>All pricing is in Canadian Dollars</p>
             </div>
         </div>
-        {{ /if }}
-
-        {{ if type == "two_col" }}
-        <div class="flex flex-wrap lg:max-w-xl mx-auto text-justify">
-            <div class="flex-1 min-w-xs p-4">
-                {{ col_one | markdown }}
-            </div>
-            <div class="flex-1 min-w-xs p-4">
-                {{ col_two | markdown }}
+        <div class="px-2">
+            <div class="flex -mx-2">
+                <div class="w-1/3 px-2">
+                    <h2 class="font-subheading">Entrepreneur</h2>
+                    <h2 class="font-subheading">Starting at $1500</h2>
+                    <p>Our entrepreneur package is the perfect fit when looking for a cost-effective way to get your business or organization online.</p>
+                        <ul>
+                           <li>Up to 5 Pages</li>
+                           <li>Contact Form</li>
+                           <li>2 Roundsof Revisions</li>
+                        </ul>
+                    <div class="bg-gray-400 h-12">
+                        <h2 class="font-subheading">Entrepreneur</h2>
+                        <h2 class="font-subheading">Starting at $1500</h2>
+                        <p>Our entrepreneur package is the perfect fit when looking for a cost-effective way to get your business or organization online.</p>
+                            <ul>
+                               <li>Up to 5 Pages</li>
+                               <li>Contact Form</li>
+                               <li>2 Roundsof Revisions</li>
+                            </ul>
+                    </div>
+                </div>
+                <div class="w-1/3 px-2">
+                    <div class="bg-gray-500 h-12"></div>
+                </div>
+                <div class="w-1/3 px-2">
+                    <div class="bg-gray-400 h-12"></div>
+                </div>
             </div>
         </div>
-        {{ /if }}
-    {{ /story }}
-
-</div>
