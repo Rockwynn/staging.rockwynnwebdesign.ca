@@ -96,8 +96,9 @@ body {
   font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   font-size: 20px;
 }
-.how-section3 .px-2.py-2.mx-auto {
-    max-width: 75%;
+.how-section3 .row {
+    margin-right: 20px;
+    margin-left: 20px;
 }
 .firstone {
     background-color: #77A1D3;
