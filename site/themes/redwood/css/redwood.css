@@ -395,18 +395,18 @@ footer.page {
 footer.page p.copyright {
   font-family: "Lato", sans-serif;
   font-family: "FreightSansPro", sans-serif;
-  font-weight: 900;
+  font-weight: 400;
   font-size: 14px;
 }
 
 footer.page p.tribute {
-  color: #b8b8b8;
+  /*color: #b8b8b8;*/
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .5em;
 }
 footer.page span a {
-    color: #818181;
+    color: #676767;
 }
 
 .section-things {
@@ -760,12 +760,12 @@ code {
 .navbar-redwood .nav {
   color: #b8b8b8;
   font-family: "FreightSansPro", sans-serif;
-  font-size: 12px;
+  font-size: 13px;
   overflow: hidden;
 }
 
 .navbar-redwood .nav a {
-  color: #b8b8b8;
+  color: #676767;
   letter-spacing: .1em;
   margin-left: 32px;
   padding: 20px 0;
