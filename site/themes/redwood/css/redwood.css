@@ -124,9 +124,11 @@ body {
 }
 .my-image-1 {
     max-width: 300px;
-    max-height: 310px;
+    max-height: 300px;
     padding-bottom:4%;
     /*margin-top: 16px;*/
+}.my-image-1 img {
+    margin-top: 17px;
 }
 .center {
     text-align: center;
