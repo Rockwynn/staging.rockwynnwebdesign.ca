@@ -92,7 +92,7 @@ body {
   color: #3c3c3c;*/
   background: #f1f1f1;
   color: #676767;
-  font-family: Lora, serif;
+  font-family: FreightSansPro, serif;
   font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   font-size: 20px;
 }
@@ -316,7 +316,7 @@ body {
 }
 
 .hero header h2 {
-  font-family: "Lora", serif;
+  font-family: "FreightTextPro", serif;
   font-style: italic;
   -webkit-font-smoothing: antialiased;
 }
@@ -342,7 +342,7 @@ body {
 .hero .meta .name {
   color: #fff;
   margin: 5px 0;
-  font-family: "Lora", serif;
+  font-family: "FreightTextPro", serif;
   font-style: italic;
   font-size: 18px;
   text-transform: normal;
@@ -394,6 +394,7 @@ footer.page {
 
 footer.page p.copyright {
   font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-weight: 900;
   font-size: 14px;
 }
@@ -425,7 +426,7 @@ footer.page span a {
   font-family: "Lato", sans-serif;
   text-align: center;
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   color: #b8b8b8;
   font-size: 13px;
   text-transform: uppercase;
@@ -437,7 +438,7 @@ footer.page span a {
 }
 
 input.giant {
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 60px;
   font-weight: 300;
   color: #3c3c3c;
@@ -520,13 +521,13 @@ h6 em {
 }
 
 .special {
-  font-family: "Lora", serif;
+  font-family: "FreightSansPro", serif;
   margin-bottom: 64px;
 }
 
 .special small {
   display: block;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   color: #b8b8b8;
   font-size: 13px;
   text-transform: uppercase;
@@ -552,7 +553,7 @@ section header h2 {
 }
 
 article.content p {
-  font-family: "Lora", serif;
+  font-family: "FreightSansPro", serif;
   font-size: 18px;
   line-height: 32px;
   margin: 0 0 32px;
@@ -644,7 +645,7 @@ article.content img.oversized {
 }
 
 article.content p.caption {
-  font-family: "Lora", serif;
+  font-family: "FreightSansPro", serif;
   font-style: italic;
   font-size: 14px;
   text-align: center;
@@ -662,7 +663,7 @@ article.content iframe {
 }
 
 .block h3 {
-  font-family: "Lato", sans-serif;
+  /*font-family: "Lato", sans-serif;*/
   font-size: 24px;
   font-weight: 900;
   margin: 0 0 5px;
@@ -670,7 +671,7 @@ article.content iframe {
 }
 
 .block p {
-  font-family: Lato, sans-serif;
+  /*font-family: Lato, sans-serif;*/
   font-size: 18px;
   line-height: 1.5;
   font-weight: 300;
@@ -703,7 +704,7 @@ article.content iframe {
 
 .meta {
   color: #b8b8b8;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 12px;
   margin: 0 0 64px;
 }
@@ -758,7 +759,7 @@ code {
 
 .navbar-redwood .nav {
   color: #b8b8b8;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 12px;
   overflow: hidden;
 }
@@ -823,7 +824,7 @@ code {
 
 .navbar-redwood .search {
   border-radius: 32px;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 14px;
   width: 180px;
   display: block;
@@ -860,7 +861,7 @@ code {
   background: rgba(0, 0, 0, 0.05);
   color: #445566;
   cursor: pointer;
-  font-family: "Lato", sans-serif;
+  font-family: "FreightSansPro", sans-serif;
   font-size: 12px;
   padding: 6px 10px;
   border-radius: 2px;
