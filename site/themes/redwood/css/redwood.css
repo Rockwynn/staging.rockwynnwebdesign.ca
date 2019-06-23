@@ -101,6 +101,7 @@ body {
 }
 .firstone {
     background-color: #77A1D3;
+    border-radius: 32px;
 }
 .firstone h3, .secondone h3, .secondone h4 {
     color: #000000;
@@ -121,7 +122,7 @@ body {
     max-width: 300px;
     max-height: 310px;
     padding-bottom:4%;
-    margin-top: 16px;
+    /*margin-top: 16px;*/
 }
 .center {
     text-align: center;
@@ -151,12 +152,12 @@ body {
     max-width: 80%;
     margin-left: auto;
     margin-right: auto;
-    margin-bottom: 4%;
+    margin-bottom: 6%;
 }
 .how-section1, .how-section2, .how-section3, .how-sectiion4 {
     text-align: center;
 }
-.how-section1 .row h2, .how-section3 .row h2, .how-section4 .row h2, .how-section6 .row h2 {
+.how-section1 .row h2, .how-section3 .row h2, .how-section4 .row h2, .how-section6 .row h2, .how-section3 .row h3 {
     color: #000000;
     font-weight: bold;
     font-size: 40px;
@@ -658,7 +659,7 @@ article.content iframe {
 
 .block {
   margin-top: 32px;
-  /*padding-top: 32px;*/
+  padding-top: 32px;
   border-top: 1px solid rgba(0, 0, 0, 0.05);
 }
 
@@ -811,7 +812,7 @@ code {
 
 .navbar-redwood .navbar-brand {
   color: #3c3c3c;
-  font-weight: 900;
+  font-weight: 600;
   font-size: 32px;
   height: 60px;
   padding: 20px 15px;
@@ -974,5 +975,5 @@ img.zoom-img {
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4%;
-    padding-left: 30px;
+    /*padding-left: 30px;*/
 }
