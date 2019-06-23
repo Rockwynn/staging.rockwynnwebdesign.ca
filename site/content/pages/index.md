@@ -1,7 +1,7 @@
 ---
 title: Home
 sub_title: Home subtitle
-subhead: 'A full stack Web Development & Graphic Design firm</br> located in Sundridge.'
+subhead: 'Web Development & Graphic Design</br>Sundridge'
 headline: 'Welcome to Rockwynn'
 background_image: https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: home
@@ -13,13 +13,12 @@ story:
   -
     type: text
     text: |
-      <h3><span class="text-pink">CUSTOM WEB DESIGN</span> WHAT DOES YOUR ONLINE PRESENCE SAY ABOUT YOU?</h3>
-      <p>
-      Most consumers will search for businesses online before visiting them in person, so it’s important to make a great first impression. We’ll show you the opportunities that a great website can create for your business, and help you craft an online presence that is responsive and appealing. Tell us your vision! We’ll work with you to design and develop a website that will help your business succeed.</p>
+      <h3><span></span></h3>
+      <p></p>
   -
     type: image
     size: xl
-    image: /assets/chuttersnap-297553.jpg
+    image:
   -
     type: text
     text: "<p>Later that day I climbed this cliff face for a shot of the sunset and got stuck up there overnight. The medicine man appeared again, smelling even funnier than before. He told me I was destined for grape things. I was confused. And then he disappeared. Grape things?</p><blockquote>You are destined for grape things.</blockquote><p>I woke to a hot air balloon over my head. They swooped down and asked if I wanted a lift. When presented with adventure, you just say yes. That's my motto. And up I went. I don't remember anything else.</p>"

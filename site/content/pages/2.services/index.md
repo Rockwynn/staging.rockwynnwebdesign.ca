@@ -1,13 +1,14 @@
 site_name: 'Rockwynn Web Design'
 title: Services
-headline:
+headline: Live adventurous all the way
+subhead: Everyday presents a new opportunity to grow and move forward to your success
 subtitle:
 sub_title: 'Services sub title'
 template: services
 fieldset: article
 layout: second-nav-hidden
 subtitle: 'my services subtitle'
-background_image: 'https://rwd.imgix.net/rwd-red-smoke-on-black-outlined-4752x1404.jpg?ch=DPR&auto=compress,enhance,format&fit=scale'
+background_image: 'https://rwd.imgix.net/fermi-paradox.png?ch=DPR&auto=compress,enhance,format&fit=scale'
 background_color: '#FFFFFF'
 blend_mode: none
 id: 3809f91e-6c23-4ed4-87a1-6cf26db89925
