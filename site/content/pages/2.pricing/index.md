@@ -1,5 +1,5 @@
 site_name: 'Rockwynn Web Design'
-title: Services
+title: Pricing
 headline: Live adventurous all the way
 subhead: Everyday presents a new opportunity to grow and move forward to your success
 subtitle:

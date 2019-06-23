@@ -1,45 +1,80 @@
 <div class="content bg-white">
-
     {{ partial:hero-without-phoenix :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
 
-    {{ story }}
-        {{ if type == "hero" }}
-            {{ partial:hero-without-phoenix }}
-        {{ /if }}
+    <h3 class="leading-none"><span class="text-pink">CUSTOM WEB DESIGN</span>
+    <h3 class="font-subheading">What does your online presence say about you?</h3>
+    <p>A website is the foundation of your business' online presence. That foundation should be both professional and personalized. Ready to start building a noticeable brand? We can get you there.</p>
+    <p>Most consumers will search for businesses online before visiting them in person, so it’s important to make a great first impression.
+    We’ll show you the opportunities that a great website can create for your business, and help you craft an online presence
+    that is responsive and appealing. Tell us your vision! We’ll work with you to design and develop a website that will help your
+    business succeed.</p><p>Customers want to connect with you online.
+    Is your website up to the task? We build websites to suit every business and every budget.</p>
+    <p>Rockwynn will support you to update your business website and to reshape it with a smooth design which helps to draw
+    customers attention and to achieve your business goals.</p>
+    <p>Expect nothing less than perfect from Rockwynn</p>
+    -
+    type: image
+    size: xl
+    image: /assets/services-marketing-icon.svg
+    Web Design Company
+A WEBSITE AS PROFESSIONAL AS YOU ARE. STARTING AT $2200
+It takes a lot of effort to make your clients happy. You sweat the small stuff. You don’t cut corners. You spend the extra time to ensure it’s done right and the finished product is outstanding. For many of your referrals your website will be their first impression of you; that’s why it’s important that your website matches the quality and professionalism of your work.
 
-        {{ if type == "text" }}
-            <div class="{{ if first }}mt-3{{ /if }} text-center px-2">
-                {{ text }}
-            </div>
-        {{ /if }}
 
-        {{ if type == "image" }}
-            <img src="{{ image }}" class="mx-auto mt-5 block max-w-{{ size }}">
-            {{ if image | get:alt }}<p class="text-base text-grey-dark text-center mt-2 mb-5 italic"><!--{{ image | get:alt }}--></p>{{ /if }}
-        {{ /if }}
+view Pricing
+view Portfolio
 
-        {{ if type == "video" }}
-        <div class="max-w-xl mx-auto">
-            <div class="video-embed">
-                {{ if video | is_embeddable }}
-                <iframe src="{{ video | embed_url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                {{ else }}
-                <video src="{{ video | embed_url }}"></video>
-                {{ /if }}
-            </div>
-        </div>
-        {{ /if }}
+AWESOME COMES STANDARD
+Looking for custom Web Design in Oshawa? Our Web Design professionals create websites using WordPress. They know the best websites use content tailored to the needs of the website’s potential customers. So they create Easy to navigate menus, beautiful graphics, and “Search Engine Friendly” Content. Other companies might, but here at PixelSmith we don’t outsource our services overseas or through affiliates. All our staff are located right here in the Durham Region. — Saving you time and money. Our whole team of Web Designers, Search Engine Optimization Experts, Photographers, and Copywriters work together to create a website that gets results. Technology changes rapidly and so does the art and science of web design. Our team works hard to stay on top of these changes so you don’t need to. Setup a free consultation with best web design company in Oshawa.
 
-        {{ if type == "two_col" }}
-        <div class="flex flex-wrap lg:max-w-xl mx-auto text-justify">
-            <div class="flex-1 min-w-xs p-4">
-                {{ col_one | markdown }}
-            </div>
-            <div class="flex-1 min-w-xs p-4">
-                {{ col_two | markdown }}
-            </div>
-        </div>
-        {{ /if }}
-    {{ /story }}
+HERE'S WHAT'S IN YOUR NEW WEBSITE
 
+
+One size doesn't fit all.
+Over the years our Web Designers have gotten to know our client's pretty well. From completing hundreds of projects we came up with some pre-defined packages to help you achieve their goals. – No more estimates or quotes, pricing made simple.
+
+STARTER
+$2200
+Design/Setup of 3 pages
+Mobile & Tablet Ready
+WordPress CMS
+Gallery/Portfolio Setup
+Social Media Integration
+Website Traffic Tracking
+Copywriting 1 Page
+ACCELERATOR
+$4200
+Design/Setup of 5 pages
+Mobile & Tablet Ready
+WordPress CMS
+Gallery/Portfolio Setup
+Social Media Integration
+Website Traffic Tracking
+Blog/News Portal Setup
+Custom Contact Forms
+Copywriting 3 Pages
+ADVANTAGE
+$6200
+Design/Setup of 7 pages
+Mobile & Tablet Ready
+WordPress CMS
+Gallery/Portfolio Setup
+Social Media Integration
+Website Traffic Tracking
+Blog/News Portal Setup
+Custom Contact Forms
+Copywriting 5 Pages
+On-Site Search Engine Optimization
+ENTERPRISE & ECOMMERCE
+$7800+
+Design/Setup of 10 pages
+Mobile & Tablet Ready
+WordPress or Shopify CMS
+Gallery/Portfolio Setup
+Social Media Integration
+Website Traffic Tracking
+Blog/News Portal Setup
+Custom Contact Forms
+Copywriting 7 Pages
+On-Site Search Engine Optimization
 </div>
