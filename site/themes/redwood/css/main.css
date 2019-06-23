@@ -2003,15 +2003,15 @@ nav a:hover {
 }
 
 .font-heading {
-  font-family: Ultra;
+  font-family: FreightTextPro;
 }
 
 .font-subheading {
-  font-family: Lato, sans-serif;
+  font-family: FreightSansPro, sans-serif;
 }
 
 .font-serif {
-  font-family: Lato, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-family: FreightTextPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
 }
 
 .font-mono {
