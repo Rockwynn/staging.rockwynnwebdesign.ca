@@ -211,8 +211,10 @@ body {
 .how-section3 .row .outer {
     padding-top: 4%;
     padding-bottom: 4%;
-}.how-section3 .row .outer ul li {
+}
+.how-section3 .row .outer ul li {
     list-style-type: none;
+    list-style: none;
 }
 .how-section1 .subheading{
     color: #;
