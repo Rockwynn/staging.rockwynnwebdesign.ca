@@ -30,8 +30,11 @@ routes:
     layout: sitemap
     content_type: xml
   /hosting-and-maintenance: footer-nav-links/hosting-and-maintenance
+  /footer-nav-links/hosting-and-maintenance:
+    template: hosting-and-maintenance
+    layout: second-nav-hidden
   /privacy-policy: footer-nav-links/privacy-policy
   /sitemap: footer-nav-links/sitemap
   /terms-of-use: footer-nav-links/terms-of-use
   /web-design-agreement: footer-nav-links/web-design-agreement
-  /web-design-process: footer-nav-links/web-design-process 
+  /web-design-process: footer-nav-links/web-design-process

@@ -1,9 +1,10 @@
-<section class="container-fluid gallery">
-	<header>
-		<!--<h1>{{ title }}</h1>-->
-		{{ content wrap="h2" }}
-	</header>
+{{ partial:hero :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
 
+<section class="bg-white container-fluid gallery">
+
+		<h1 class="centered block">{{ title }}</h1>
+		<blockquote>Dedicated to engaging the hearts and minds to inspire action</blockquote>
+		<p></p>
 	<div class="gallery-images">
 		{{ images }}<img src="{{ value }}" />{{ /images }}
 	</div>

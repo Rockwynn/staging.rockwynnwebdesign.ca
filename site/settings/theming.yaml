@@ -1,5 +1,5 @@
 theme: redwood
-default_layout: default
+default_layout: second-nav-hidden
 default_page_template: default
 default_entry_template: article
 default_taxonomy_template: topics

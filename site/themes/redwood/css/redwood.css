@@ -96,6 +96,12 @@ body {
   font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   font-size: 20px;
 }
+.list-style-none {
+    list-style-type: none;
+}
+.indented {
+    text-indent: 5%;
+}
 .how-section3 .row {
     margin-right: 20px;
     margin-left: 20px;
@@ -205,6 +211,8 @@ body {
 .how-section3 .row .outer {
     padding-top: 4%;
     padding-bottom: 4%;
+}.how-section3 .row .outer ul li {
+    list-style-type: none;
 }
 .how-section1 .subheading{
     color: #;
