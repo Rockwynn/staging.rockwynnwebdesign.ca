@@ -2,7 +2,7 @@
 title: Connect
 subtitle: sub_title
 sub_title: sub_title
-headline:
+headline: <p class="text-left mt-7">What's your favorite way <br>to communicate?</p>
 subhead:
 background_image: https://rwd.imgix.net/communicate.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: contact
