@@ -4,7 +4,7 @@ headline:
 sub_title: 'Web Design sub title'
 subtitle:
 subhead:
-background_image: https://rwd.imgix.net/custom-website-design.jpg?ch=DPR&auto=compress,enhance,format&fit=fillmax
+background_image: https://rwd.imgix.net/zen-office.jpg?ch=DPR&auto=compress,enhance,format&fit=fillmax
 blend_mode: none
 template: web-design
 fieldset: article
