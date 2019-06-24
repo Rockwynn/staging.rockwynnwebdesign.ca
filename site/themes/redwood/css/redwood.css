@@ -216,6 +216,9 @@ body {
     list-style-type: none;
     list-style: none;
 }
+.how-section3 .row .outer ul li::before {
+    content: "\200B";
+}
 .how-section1 .subheading{
     color: #;
     font-size: 20px;
