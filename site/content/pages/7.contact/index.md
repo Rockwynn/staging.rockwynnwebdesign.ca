@@ -4,7 +4,7 @@ subtitle: sub_title
 sub_title: sub_title
 headline:
 subhead:
-background_image: https://rwd.imgix.net/woman-coffee-home-office.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
+background_image: https://rwd.imgix.net/communicate.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
 template: contact
 layout: second-nav-hidden
 id: de627bca-7595-429e-9b41-ad58703916d7
