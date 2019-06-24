@@ -96,6 +96,13 @@ body {
   font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   font-size: 20px;
 }
+.btn, .btn a{
+    border: 1px solid rgba(255, 255, 255, 1);
+    color: #ffffff;
+}
+.btn:focus, .btn:hover {
+    color: #77A1D3;
+}
 .list-style-none {
     list-style-type: none;
 }

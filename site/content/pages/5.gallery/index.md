@@ -3,7 +3,7 @@ site_name: Rockwynn Web Design
 background_image: https://rwd.imgix.net/transformation-1351.jpg?DPR&auto=compress,enhance,format
 blend_mode: none
 background-color: '#000000'
-title: Rockwynn's Portfolio
+title: Portfolio
 sub_title:
 images:
   - /assets/portfolio/Dawn-Mash-Business-Card-Back-Outlined.svg

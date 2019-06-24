@@ -4,6 +4,11 @@
         <div class="flex-1 p-3">
             <h1 class="leading-none mb-4">{{ headline }}</h1>
             <h2 class="font-subheading text-4xl">{{ subhead }}</h2>
+            <p class="font-serif">{{ text }}</p>
+            <div class="col-md-12 centered">
+                <a class="btn btn-lg font-bold" href="/pricing">VIEW PRICING</a>
+                <a class="btn btn-lg font-bold" href="/contact">CONNECT WITH US</a>
+            </div>
         </div>
     </div>
     <img class="fit mix-{{ blend_mode or 'none' }} w-full h-{{ height }}" src="{{ image }}" alt="{{ alt }}">
