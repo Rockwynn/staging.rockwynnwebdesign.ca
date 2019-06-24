@@ -20,8 +20,8 @@ images:
   - /assets/portfolio/old_rwd_site_portfolio.jpg
   - /assets/portfolio/portfolio_port-carmen-marina-303x932.jpg
   - /assets/portfolio/portfolio_browns-quarry-full-page-ad.jpg
-  - /assets/portfolio/JaneWicksAd_for_web_export.jpg
   - /assets/portfolio/boyes_business_card_revised_600.jpg
+  - /assets/portfolio/JaneWicksAd_for_web_export.jpg
 template: gallery
 fieldset: gallery
 layout: second-nav-hidden
