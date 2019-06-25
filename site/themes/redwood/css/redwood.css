@@ -7,11 +7,6 @@
 }
 @font-face {
     font-family: 'FreightSansPro';
-    src: url("../fonts/FreightSansPro-BookItalic.otf");
-    font-weight: 400;
-}
-@font-face {
-    font-family: 'FreightSansPro';
     src: url("../fonts/FreightSansPro-Medium.otf");
     font-weight: 500;
 }
