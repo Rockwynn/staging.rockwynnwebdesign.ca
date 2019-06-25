@@ -109,7 +109,7 @@ body {
     color: #ffffff;
 }
 .btn:focus, .btn:hover {
-    color: #77A1D3;
+    color: #483b49;
 }
 .list-style-none {
     list-style-type: none;
@@ -122,7 +122,7 @@ body {
     margin-left: 20px;
 }
 .firstone {
-    background-color: #77A1D3;
+    background-color: #483b49;
     border-radius: 32px;
 }
 .secondone {
@@ -167,7 +167,7 @@ body {
     text-align: center;
 }
 .how-section6 {
-    background-color: #77A1D3;
+    background-color: #483b49;
     text-align: center;
 }
 .how-section3 .block p {
@@ -241,7 +241,7 @@ body {
     padding-left: 0px;
 }
 .how-section2 {
-    background-color: #77A1D3;
+    background-color: #483b49;
 }
 .how-section2 .row h2 {
     color: #000000;

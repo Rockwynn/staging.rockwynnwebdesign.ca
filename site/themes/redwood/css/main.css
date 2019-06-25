@@ -3500,8 +3500,8 @@ nav a:hover {
 .text-pink {
   color: #ff469c;
 }
-.text-blue {
-  color: #77A1D3;
+.text-brown {
+  color: #483b49;
 }
 .hover\:text-transparent:hover {
   color: transparent;
@@ -3571,8 +3571,8 @@ nav a:hover {
   color: #ff469c;
 }
 
-.hover\:text-blue:hover {
-  color: #77A1D3;
+.hover\:text-brown:hover {
+  color: #483b49;
 }
 
 .text-xs {
@@ -6382,8 +6382,8 @@ nav a:hover {
     color: #ff469c;
   }
 
-  .sm\:text-blue {
-    color: #77A1D3;
+  .sm\:text-brown {
+    color: #483b49;
   }
 
   .sm\:hover\:text-transparent:hover {
@@ -6454,8 +6454,8 @@ nav a:hover {
     color: #ff469c;
   }
 
-  .sm\:hover\:text-blue:hover {
-    color: #77A1D3;
+  .sm\:hover\:text-brown:hover {
+    color: #483b49;
   }
 
   .sm\:text-xs {
@@ -9265,8 +9265,8 @@ nav a:hover {
     color: #ff469c;
   }
 
-  .lg\:text-blue {
-    color: #77A1D3;
+  .lg\:text-brown {
+    color: #483b49;
   }
 
   .lg\:hover\:text-transparent:hover {
@@ -9337,8 +9337,8 @@ nav a:hover {
     color: #ff469c;
   }
 
-  .lg\:hover\:text-blue:hover {
-    color: #77A1D3;
+  .lg\:hover\:text-brown:hover {
+    color: #483b49;
   }
 
   .lg\:text-xs {
@@ -12149,8 +12149,8 @@ nav a:hover {
     color: #ff469c;
   }
 
-  .xl\:text-blue {
-    color: #77A1D3;
+  .xl\:text-brown {
+    color: #483b49;
   }
 
   .xl\:hover\:text-transparent:hover {
@@ -12221,8 +12221,8 @@ nav a:hover {
     color: #ff469c;
   }
 
-  .xl\:hover\:text-blue:hover {
-    color: #77A1D3;
+  .xl\:hover\:text-brown:hover {
+    color: #483b49;
   }
 
   .xl\:text-xs {
