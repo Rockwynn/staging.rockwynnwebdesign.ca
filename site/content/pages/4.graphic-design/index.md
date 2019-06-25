@@ -3,7 +3,7 @@ title: 'Graphic Design'
 headline:
 sub_title: 'sub_title'
 subtitle:
-background_image: https://rwd.imgix.net/transformation-1351.jpg?DPR&auto=compress,enhance,format&
+background_image: https://rwd.imgix.net/woman-coffee-home-office.jpg?DPR&auto=compress,enhance,format&fit=scale
 
 blend_mode: none
 fieldset: article

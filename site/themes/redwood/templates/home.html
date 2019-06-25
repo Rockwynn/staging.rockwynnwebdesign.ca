@@ -1,6 +1,6 @@
 <div class="content bg-white">
 
-    {{ partial:webdesign-hero :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
+    {{ partial:home-hero :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
     <div class="centered px-2 pt-5 pb-5 bg-grey-darker">
         <h3 class="text-white uppercase">Awesome comes standard</h3>
         <p class="text-white">A website is more than your digital presence. It’s an opportunity to showcase your unique brand.
@@ -64,29 +64,7 @@
             </div>
         </div>
     </div>
-<div class="how-section1">
-   <div class="row">
-      <div class="outer col-md-6">
-          <div class="">
-              <h2>Stunning Design.</br>Solid Development.</h2>
-              <hr class="rounded">
-              <p>There is no compromise with Rockwynn, in the very best way – our
-                  philosophy is to treat every step in a project’s process as important
-                  as the next. We’ve assembled the best design and development strategies
-                  in Sundridge in order to deliver cutting-edge solutions using the latest
-                  technologies.</p>
-          </div>
-          <div>
-              <a class="" href="/services/">VIEW OUR PACKAGES ></a>
-          </div>
-      </div>
-      <div class="col-md-6">
-          <div class="h-full">
-          <img src="/assets/coding.jpg">
-      </div>
-      </div>
-   </div>
-</div>
+
 
 <div class="how-section2">
     <div class="row">
@@ -151,45 +129,4 @@
         </div>
     </div>
 </div>
-
-    {{ story }}
-        {{ if type == "hero" }}
-            {{ partial:hero }}
-        {{ /if }}
-
-        {{ if type == "text" }}
-            <div class="{{ if first }}mt-3{{ /if }} px-2">
-                {{ text }}
-            </div>
-        {{ /if }}
-
-        {{ if type == "image" }}
-            <img src="{{ image }}" class="mx-auto mt-5 block max-w-{{ size }}">
-            {{ if image | get:alt }}<p class="text-base text-grey-dark text-center mt-2 mb-5 italic">{{ image | get:alt }}</p>{{ /if }}
-        {{ /if }}
-
-        {{ if type == "video" }}
-        <div class="max-w-xl mx-auto">
-            <div class="video-embed">
-                {{ if video | is_embeddable }}
-                <iframe src="{{ video | embed_url }}" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe>
-                {{ else }}
-                <video src="{{ video | embed_url }}"></video>
-                {{ /if }}
-            </div>
-        </div>
-        {{ /if }}
-
-        {{ if type == "two_col" }}
-        <div class="flex flex-wrap lg:max-w-xl mx-auto text-justify">
-            <div class="flex-1 min-w-xs p-4">
-                {{ col_one | markdown }}
-            </div>
-            <div class="flex-1 min-w-xs p-4">
-                {{ col_two | markdown }}
-            </div>
-        </div>
-        {{ /if }}
-    {{ /story }}
-
 </div>

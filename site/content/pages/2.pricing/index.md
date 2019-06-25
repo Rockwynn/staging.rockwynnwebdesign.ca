@@ -1,14 +1,14 @@
 site_name: 'Rockwynn Web Design'
 title: Pricing
-headline: Live adventurous all the way
-subhead: Everyday presents a new opportunity to grow and move forward to your success
+headline:
+subhead: 
 subtitle:
 sub_title: 'Services sub title'
 template: pricing
 fieldset: article
 layout: second-nav-hidden
 subtitle: 'my services subtitle'
-background_image: 'https://rwd.imgix.net/fermi-paradox.png?ch=DPR&auto=compress,enhance,format&fit=scale'
+background_image: 'https://rwd.imgix.net/zen-office.jpg?ch=DPR&auto=compress,enhance,format&fit=scale'
 background_color: '#FFFFFF'
 blend_mode: none
 id: 3809f91e-6c23-4ed4-87a1-6cf26db89925
