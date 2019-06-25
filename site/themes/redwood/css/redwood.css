@@ -205,13 +205,13 @@ body {
     color: #000000;
 }
 .how-section1 .row a,.how-section2 .row a, .how-section2 .row h2, .how-section6 .row a, .how-section4 .row a, .how-section2 .row a {
-    color: #77A1D3;
+    color: #000000;
     /*max-width: 85%;*/
     font-size: 16px;
     font-weight: bold;
 }
 
-.how-section1 .row hr, .how-section2 .row hr, .how-section3 .row hr, .how-section4 .row hr, .how-section6 .row hr {
+.how-section1 .row hr, .how-section2 .row hr, .how-section3 .row hr, .how-section4 .row hr, .how-section6 .row hr, .how-section2 .row hr {
     width: 14%;
     height: 5px;
     background-color: #000000;
@@ -242,24 +242,22 @@ body {
     padding-left: 0px;
 }
 .how-section2 {
-    background-color: #000000;
+    background-color: #77A1D3;
 }
 .how-section2 .row h2 {
-    color: #ffffff;
+    color: #000000;
     font-weight: bold;
     font-size: 40px;
-    padding-top: 5%;
+    /*padding-top: 5%;*/
     margin-bottom: 2%;
 }
-.how-section2 .row hr {
-    width: 14%;
-    height: 5px;
-    background-color: #ffffff;
-    border-top: #ffffff;
+.how-section4, .how-section6 {
+    border: none;
 }
-.how-section4 .row {
+.how-section4 .row, .how-section6 .row{
     border-color: #676767;
     border-width: 2px;
+    border-style: solid;
 }
 .how-section4 .row .outer {
     border-color: #676767;

@@ -1,10 +1,12 @@
 ---
 site_name: Rockwynn Web Design
-background_image: https://rwd.imgix.net/louvre_paris.jpg?DPR&auto=compress,enhance,format&fit=scale
+background_image: https://rwd.imgix.net/louvre_paris.jpg?DPR&auto=compress,enhance,format&fit=crop&max-h=1500
 blend_mode: none
 background-color: '#000000'
 title: Portfolio
 sub_title:
+headline: Live adventurous all the way
+subhead: Everyday presents a new opportunity to grow and move forward to your success
 images:
   - /assets/portfolio/Dawn-Mash-Business-Card-Back-Outlined.svg
   - /assets/portfolio/Dawn-Mash-Business-Card-Front-Outlined.svg
