@@ -8,7 +8,7 @@ template: pricing
 fieldset: article
 layout: second-nav-hidden
 subtitle: 'my services subtitle'
-background_image: imgix:responsive_image_tag path="zen-office.jpg" auto="format" fit="scale"
+background_image: {{ imgix:responsive_image_tag path="zen-office.jpg" auto="format" fit="scale" }}
 background_color: '#FFFFFF'
 blend_mode: none
 id: 3809f91e-6c23-4ed4-87a1-6cf26db89925

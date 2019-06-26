@@ -3,7 +3,7 @@ title: About
 headline: Welcome to Rockwynn
 subhead: ''
 sub_title: 'Welcome'
-background_image: imgix:responsive_image_tag path="lake-bernard-park.jpg" auto="format" fit="scale"
+background_image: {{ imgix:responsive_image_tag path="lake-bernard-park.jpg" auto="format" fit="scale" }}
 template: about
 fieldset: article
 layout: second-nav-hidden
