@@ -1,6 +1,6 @@
 ---
 site_name: Rockwynn Web Design
-background_image: https://rwd.imgix.net/louvre_paris.jpg?DPR&auto=compress,enhance,format&fit=crop&max-h=1500
+background_image: 
 blend_mode: none
 background-color: '#000000'
 title: Portfolio

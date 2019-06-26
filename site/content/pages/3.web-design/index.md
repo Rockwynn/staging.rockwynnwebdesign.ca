@@ -4,7 +4,7 @@ sub_title: 'Web Design sub title'
 site_name: 'Rockwynn Web Design'
 headline: 'Welcome to Rockwynn<br>Web Design'
 subhead: Sundridge, ON
-background_image: https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=scale
+background_image: 
 blend_mode: none
 template: web-design
 fieldset: article

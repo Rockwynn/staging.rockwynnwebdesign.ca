@@ -1,8 +1,8 @@
 <div class="bg-white text-white h-{{ height }} relative overflow-hidden" style="background-color: {{ background_color }}">
-    <img src="{{ background_image }}" alt="" class="mix-{{ blend_mode or "none" }} pin absolute opacity-75 fit h-{{ height }} w-full">
+    {{ imgix:responsive_image_tag path="lake-bernard-park.jpg" auto="format" fit="scale" alt="Lake Bernard Park Sundridge" class="mix-{{ blend_mode or "none" }} pin absolute opacity-75 fit h-{{ height }} w-full"}}
     <div class="absolute w-full z-10 flex items-center text-center">
         <div class="flex-1 p-3">
-            <img class="center" src="/assets/phoenix-rising1x1.png">
+            {{ imgix:responsive_image_tag path="phoenix-rising1x1.png" auto="format" fit="scale" class="center" }}
             <h1 class="leading-none mb-4">{{ headline }}</h1>
             <h2 class="font-subheading text-5xl">{{ subhead }}</h2>
         </div>
