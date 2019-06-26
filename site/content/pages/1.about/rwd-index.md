@@ -4,7 +4,6 @@ headline: Welcome to Rockwynn
 subhead: ''
 sub_title: 'Welcome'
 background_image: imgix:responsive_image_tag path="lake-bernard-park.jpg" auto="format" fit="scale"
-<!--https://rwd.imgix.net/lake-bernard-park.jpg?ch=DPR&auto=compress,enhance,format&fit=scale-->
 template: about
 fieldset: article
 layout: second-nav-hidden
