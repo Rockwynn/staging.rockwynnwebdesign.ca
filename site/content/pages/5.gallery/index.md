@@ -8,8 +8,8 @@ sub_title:
 headline: Live adventurous all the way
 subhead: Everyday presents a new opportunity to grow and move forward to your success
 images:
-- rwd-red-smoke-on-black-4752x1404.jpg
-- portfolio/portfolio_browns-quarry-ad.jpg
+- red-smoke-on-black-4752x1404.jpg
+- portfolio/browns-quarry-ad.jpg
 - portfolio/portfolio_bakers-landing-dock.jpg
 - portfolio/old_affordable_portable_storage_site.jpg
 - portfolio/old_browns_quarry_screenshot_700x889.jpg
