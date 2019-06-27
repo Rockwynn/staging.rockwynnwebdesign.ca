@@ -8,7 +8,7 @@ sub_title:
 headline: Live adventurous all the way
 subhead: Everyday presents a new opportunity to grow and move forward to your success
 images:
-- red-smoke-on-black-outlined-4752x1404.jpg?&w=1500&auto=format&fit=scale
+- red-smoke-on-black-outlined-4752x1404.jpg
 - portfolio/portfolio_bakers-landing-dock.jpg
 - RWD-pink-ad-300-2251-1464.jpg
 - portfolio/woodlore-responsive800x370.jpg
