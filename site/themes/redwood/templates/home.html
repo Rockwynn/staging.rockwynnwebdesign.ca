@@ -14,24 +14,24 @@
         <h4 class="text-white uppercase pt-2 ">Here's whats in your new website</h4>
         <div class="container pt-3 ml-3">
             <div class="col-sm-4">
-                <div class="mb-3 ml-4 text-left">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}}
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Custom Website Design</h6>
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Search Engine Friendly</h6>
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Portfolio/Gallery</h6>
+                <div class="mb-3 ml-4 text-left">
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Custom Website Design</h6>
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Search Engine Friendly</h6>
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Portfolio/Gallery</h6>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="mb-3 ml-4 text-left">
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} SSL Certificate</h6>
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Social Media Ready</h6>
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Maintenance/Hosting</h6>
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} SSL Certificate</h6>
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Social Media Ready</h6>
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Maintenance/Hosting</h6>
                 </div>
             </div>
             <div class="col-sm-4">
                 <div class="mb-3 ml-4 text-left">
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Mobile/ tablet responsive</h6>
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Blogging ready</h6>
-                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Contact form</h6>
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Mobile/ tablet responsive</h6>
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Blogging ready</h6>
+                    <h6 class="text-white uppercase">{{ imgix:responsive_image_tag path="icons/checkmark1.png" fit="clip" w="20" h="20" auto="format"}} Contact form</h6>
                 </div>
             </div>
         </div>
@@ -43,7 +43,7 @@
                 Service and Teamwork defines the culture of Rockwynn.</p>
         </div>
         <div class="row p-4">
-            <div class="col-md-3 p-3 qist" style="background-image: url(https://rwd.imgix.net/icons/paint-Q.png)">
+            <div class="col-md-3 p-3 qist" style="background-image: url({{ imgix:image_url path="icons/paint-Q.png" auto="format" fit="scale"}})">
                 <h2 class="text-black">Quality.</h2>
                 <p class="text-grey-dark">We pay attention to detail. Not just to find bugs and defects, but to make the best possible product—
                     from user experience, to information architecture.</p>
@@ -86,7 +86,8 @@
       <div class="outer col-md-6">
           <div class="">
               <div class="my-image my-image-1 mx-auto">
-                  <img src="/assets/services-web-design-icon.svg" class="my-image mx-auto">
+                  {{ imgix:responsive_image_tag path="services-web-design-icon.svg" auto="format" fit="scale" class="my-image mx-auto" }}
+                  <!--<img src="/assets/services-web-design-icon.svg" class="my-image mx-auto">-->
               </div>
               <h2 class="center">Website Design</h2>
               <p>We make beautiful, responsive websites that we’re proud of.
@@ -100,7 +101,8 @@
       <div class="outer col-md-6">
           <div class="">
               <div class="my-image mx-auto">
-                   <img src="/assets/services-branding-icon.svg" class="my-image mx-auto">
+                  {{ imgix:responsive_image_tag path="services-branding-icon.svg" auto="format" fit="scale" class="my-image mx-auto" }}
+                   <!--<img src="/assets/services-branding-icon.svg" class="my-image mx-auto">-->
               </div>
               <h2 class="center">Graphic Design</h2>
               <p>We are experts at creating graphics that speak to your audience. A well-designed graphic speaks
