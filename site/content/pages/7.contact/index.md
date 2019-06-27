@@ -3,7 +3,7 @@ title: Connect
 subtitle: sub_title
 sub_title: sub_title
 headline: What's your favorite <br>way to communicate?
-subhead: What's your favorite <br>way to communicate?
+subhead: 
 background_image:
 template: contact
 layout: second-nav-hidden
