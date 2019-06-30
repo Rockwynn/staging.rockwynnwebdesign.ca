@@ -2,65 +2,73 @@
 @import url(https://fonts.googleapis.com/css?family=Lora:400,400italic,700,700italic);*/
 @font-face {
     font-family: 'FreightSansPro';
+    font-display: auto;
     src: url("../fonts/FreightSansPro-Book.otf");
     font-weight: 400;
 }
 @font-face {
     font-family: 'FreightSansPro';
+    font-display: auto;
     src: url("../fonts/FreightSansPro-Medium.otf");
     font-weight: 500;
 }
 @font-face {
     font-family: 'FreightSansPro';
+    font-display: auto;
     src: url("../fonts/FreightSansPro-Semibold.otf");
     font-weight: 600;
 }
 @font-face {
     font-family: 'FreightSansPro';
+    font-display: auto;
     src: url("../fonts/FreightSansPro-Bold.otf");
     font-weight: 700;
 }
-
 @font-face {
     font-family: 'FreightTextPro';
+    font-display: auto;
     src: url("../fonts/FreightTextPro-SemiboldRegular.eot");
     font-weight: 600;
 }
 @font-face {
     font-family: 'FreightTextPro';
+    font-display: auto;
     src: url("../fonts/FreightTextPro-SemiboldRegular.ttf");
     font-weight: 600;
 }
 @font-face {
     font-family: 'FreightTextPro';
+    font-display: auto;
     src: url("../fonts/FreightTextPro-SemiboldRegular.woff");
     font-weight: 600;
 }
-
-
-
 @font-face {
     font-family: 'FreightTextPro';
+    font-display: auto;
     src: url("../fonts/FreightTextPro-Bold.eot");
     font-weight: 700;
 }
 @font-face {
     font-family: 'FreightTextPro';
+    font-display: auto;
     src: url("../fonts/FreightTextPro-Bold.otf");
     font-weight: 700;
 }
 @font-face {
     font-family: 'FreightTextPro';
+    font-display: auto;
     src: url("../fonts/FreightTextPro-Bold.ttf");
     font-weight: 700;
 }
 @font-face {
     font-family: 'FreightTextPro';
+    font-display: auto;
     src: url("../fonts/FreightTextPro-Bold.woff");
     font-weight: 700;
 }
 @font-face {
     font-family: 'FreightTextPro';
+    font-display: auto;
     src: url("../fonts/FreightTextPro-Bold.woff2");
     font-weight: 700;
 }
