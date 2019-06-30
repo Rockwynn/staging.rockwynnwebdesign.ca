@@ -2007,11 +2007,11 @@ nav a:hover {
 }
 
 .font-subheading {
-  font-family: FreightSansPro, sans-serif;
+  font-family: FreightSans Pro, Medium, sans-serif;
 }
 
 .font-serif {
-  font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-family: FreightSans Pro, Book, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
 }
 
 .font-mono {
