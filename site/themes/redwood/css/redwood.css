@@ -150,12 +150,12 @@ body {
 .secondone {
     border-radius: 32px;
 }
-.firstone h3, .secondone h3, .secondone h4 {
+/*.firstone h3, .secondone h3, .secondone h4 {
     color: #000000;
-}
-.firstone h4, .firstone p, .firstone ul li, .firstone.block.p {
+}*/
+/*.firstone h4, .firstone p, .firstone ul li, .firstone.block.p {
     color: #ffffff;
-}
+}*/
 .content ul.nav.navbar-nav {
     margin-bottom: 0px;
     max-width: none;
@@ -207,28 +207,28 @@ body {
     text-align: center;
 }
 .how-section1 .row h2, .how-section3 .row h2, .how-section4 .row h2, .how-section6 .row h2 {
-    color: #000000;
-    /*font-weight: bold;*/
+    /*color: #000000;
+    font-weight: bold;*/
     font-size: 40px;
     margin-bottom: 2%;
 }
 .how-section3 .row h3 {
-    color: #000000;
-    /*font-weight: bold;*/
+    /*color: #000000;
+    font-weight: bold;*/
     margin-bottom: 2%;
 }
 .how-section2 .row p, .how-section6 .row p {
-    color: #ffffff;
+    /*color: #ffffff;*/
 }
 .how-section3 .row  p, .how-section4 .row p {
-    color: #676767;
+    /*color: #676767;*/
 }
 .how-section6 .row .outer a {
-    color: #000000;
+    /*color: #000000;*/
 }
 .how-section1 .row a,.how-section2 .row a, .how-section2 .row h2, .how-section6 .row a, .how-section4 .row a, .how-section2 .row a {
-    color: #000000;
-    /*max-width: 85%;*/
+    /*color: #000000;
+    max-width: 85%;*/
     font-size: 16px;
     /*font-weight: bold;*/
 }
@@ -236,8 +236,9 @@ body {
 .how-section1 .row hr, .how-section2 .row hr, .how-section3 .row hr, .how-section4 .row hr, .how-section6 .row hr, .how-section2 .row hr {
     width: 14%;
     height: 5px;
-    background-color: #000000;
-    border-top: #000;
+    border-top: none;
+    /*background-color: #000000;
+    border-top: #000;*/
 }
 .how-section1 .row .outer, .how-section2 .row .outer, .how-section3 .row .outer, .how-section6 .row .outer {
     padding-right: 5%;
@@ -266,8 +267,8 @@ body {
     background-color: #483b49;
 }
 .how-section2 .row h2 {
-    color: #000000;
-    /*font-weight: bold;*/
+    /*color: #000000;
+    font-weight: bold;*/
     font-size: 40px;
     /*padding-top: 5%;*/
     margin-bottom: 2%;

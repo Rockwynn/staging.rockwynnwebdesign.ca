@@ -1079,7 +1079,8 @@ nav a:hover {
 }
 
 .bg-black {
-  background-color: #1e2223;
+    background-color: #3c3c3c;
+ /* background-color: #1e2223;*/
 }
 
 .bg-darkish {
@@ -3438,7 +3439,8 @@ nav a:hover {
 }
 
 .text-black {
-  color: #1e2223;
+    color: #3c3c3c;
+ /*color: #1e2223;*/
 }
 
 .text-darkish {
@@ -3468,7 +3470,9 @@ nav a:hover {
 .text-grey-lighter {
   color: #f3f7f9;
 }
-
+.text-my-grey {
+    color: #676767;
+}
 .text-grey-lightest {
   color: #fafcfc;
 }
