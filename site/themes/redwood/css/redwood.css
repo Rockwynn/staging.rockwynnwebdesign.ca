@@ -208,7 +208,7 @@ body {
 }
 .how-section1 .row h2, .how-section3 .row h2, .how-section4 .row h2, .how-section6 .row h2 {
     color: #000000;
-    font-weight: bold;
+    /*font-weight: bold;*/
     font-size: 40px;
     margin-bottom: 2%;
 }
