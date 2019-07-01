@@ -214,7 +214,7 @@ body {
 }
 .how-section3 .row h3 {
     color: #000000;
-    font-weight: bold;
+    /*font-weight: bold;*/
     margin-bottom: 2%;
 }
 .how-section2 .row p, .how-section6 .row p {
