@@ -7,7 +7,8 @@
 	.nav {
 		color: $color_light;
 		font-family: $font_sans;
-		font-size: 12px;
+        /*font-family: FreightSans Pro, Book, sans-serif;*/
+		font-size: 13px;
 		overflow: hidden;
 	}
 
@@ -53,7 +54,7 @@
 
 	.navbar-brand {
 		color: $color_dark;
-		font-weight: 900;
+		font-weight: 600;
 		font-size: 32px;
 		height: 60px;
 		padding: 20px 15px;
@@ -67,6 +68,7 @@
 	.search {
 		border-radius: $gap;
 		font-family: $font_sans;
+        /*font-family: FreightSans Pro, Book, sans-serif;*/
 		font-size: 14px;
 		width: 180px;
 		display: block;
@@ -86,4 +88,3 @@
 		background: #aaa;
 	}
 }
-

@@ -2,7 +2,7 @@
 
     {{ partial:home-hero :headline="headline" :subhead="subhead" height="screen" show_topic="true" }}
     <div class="centered px-2 pt-5 pb-5 bg-grey-darker">
-        <h3 class="text-white uppercase">Awesome comes standard</h3>
+        <h2 class="text-white">Awesome comes standard</h2>
         <p class="text-white">A website is more than your digital presence. It’s an opportunity to showcase your unique brand.
         A means to attract visitors, demonstrate what you do, and encourage them to take action.In today’s
         competitive environment, you need a website that combines elegance and sophistication with an
@@ -39,38 +39,37 @@
 
     <div class=" mx-auto text-justify" style="background-color:#f4f1f4;">
         <div class="pt-4 pr-4 pl-4">
-            <h2 class="centered text-black text-5xl">Our unwavering committment to Quality, Innovation,
-                Service and Teamwork defines the culture of Rockwynn.</h2>
+            <h2 class="centered text-black">Quality, Innovation, Service and Teamwork defines Rockwynn.</h2>
         </div>
         <div class="row p-4">
-            <div class="col-md-3 p-3 qist" style="background-image: url({{ imgix:image_url path="icons/paint-Q.png" auto="format" fit="scale"}})">
+            <div class="col-md-3 pt-6 pb-3 bg-no-repeat" style="background-image: url({{ imgix:image_url path="icons/paint-Q.png" auto="format" fit="scale"}})">
                 <h2 class="text-black">Quality.</h2>
-                <p class="text-grey-dark">We pay attention to detail. Not just to find bugs and defects, but to make the best possible product—
+                <p class="text-my-grey">We pay attention to detail. Not just to find bugs and defects, but to make the best possible product—
                     from user experience, to information architecture.</p>
             </div>
-            <div class="col-md-3 p-3 qist" style="background-image: url(https://rwd.imgix.net/icons/paint-I.png)">
+            <div class="col-md-3 pt-6 pb-3 bg-no-repeat" style="background-image: url(https://rwd.imgix.net/icons/paint-I.png)">
                 <h2 class="text-black">Innovation.</h2>
-                <p class="text-grey-dark">The wow factor. When a user experiences your product and has that “whoa, that's cool”
+                <p class="text-my-grey">The wow factor. When a user experiences your product and has that “whoa, that's cool”
                     reaction— that’s what we’re striving for.</p>
             </div>
-            <div class="col-md-3 p-3 qist" style="background-image: url(https://rwd.imgix.net/icons/paint-S.png)">
+            <div class="col-md-3 pt-6 pb-3 bg-no-repeat" style="background-image: url(https://rwd.imgix.net/icons/paint-S.png)">
                 <h2 class="text-black">Service.</h2>
-                <p class="text-grey-dark">Communication is key. Our projects require intimate relationships with our clients. And that only
+                <p class="text-my-grey">Communication is key. Our projects require intimate relationships with our clients. And that only
                     happens when communication is candid, transparent, and frequent.</p>
             </div>
-            <div class="col-md-3 p-3 qist" style="background-image: url(https://rwd.imgix.net/icons/paint-T.png)">
+            <div class="col-md-3 pt-6 pb-3 bg-no-repeat" style="background-image: url(https://rwd.imgix.net/icons/paint-T.png)">
                 <h2 class="text-black">Teamwork.</h2>
-                <p class="text-grey-dark">Teamwork makes the dream work. Working with our clients as if they were one of us—that’s how the magic happens.</p>
+                <p class="text-my-grey">Teamwork makes the dream work. Working with our clients as if they were one of us—that’s how the magic happens.</p>
             </div>
         </div>
     </div>
 
 
-<div class="how-section2">
-    <div class="row">
-        <div class="outer col-md-12">
-            <h2 class="text-white">Well-crafted, custom solutions</h2>
-            <hr class="rounded">
+<div class="how-section2 bg-grey-darker centered">
+    <div class="row border-my-grey border-2 border-solid">
+        <div class="outer col-md-12 py-2 px-3">
+            <h2 class="text-white mb-1">Well-crafted, custom solutions</h2>
+            <hr class="rounded bg-white">
             <p class="text-white">As a company with a long history of building custom development solutions,
                 we know every client has different needs. We break down our main service
                 offerings into the following categories:</p>
@@ -81,15 +80,15 @@
 <!--<div class="how-section5 bg-white text-white h-{{ height }} relative overflow-hidden" >
      <img src="https://rwd.imgix.net/woman-coffee-home-office.jpg?ch=DPR&auto=compress,enhance,format&fit=scale" class="mix-{{ blend_mode or "none" }} fit h-{{ height }} w-full">
  </div>-->
-<div class="how-section4">
+<div class="how-section4 centered">
    <div class="row">
-      <div class="outer col-md-6">
+      <div class="outer col-md-6 py-3 px-5">
           <div class="">
               <div class="my-image my-image-1 mx-auto">
-                  {{ imgix:responsive_image_tag path="services-web-design-icon.svg" auto="format" fit="scale" class="my-image mx-auto" }}
+                  {{ imgix:responsive_image_tag path="services-web-design-icon.svg" auto="format" h="300" max-w="300" fit="crop" class="my-image mx-auto" }}
                   <!--<img src="/assets/services-web-design-icon.svg" class="my-image mx-auto">-->
               </div>
-              <h2 class="center text-black">Website Design</h2>
+              <h2 class="center text-black mb-1">Website Design</h2>
               <p>We make beautiful, responsive websites that we’re proud of.
                   Our designs are thoroughly researched, and follow a process
                   of planning, wireframing and mockup design.</p>
@@ -98,13 +97,13 @@
               <a class="text-black font-bold" href="/web-design/">LEARN MORE ></a>
           </div>
       </div>
-      <div class="outer col-md-6">
+      <div class="outer col-md-6 py-3 px-5">
           <div class="">
               <div class="my-image mx-auto">
-                  {{ imgix:responsive_image_tag path="services-branding-icon.svg" auto="format" fit="scale" class="my-image mx-auto" }}
+                  {{ imgix:responsive_image_tag path="services-branding-icon.svg" auto="format" h="300" max-w="300" fit="crop" class="my-image mx-auto" }}
                    <!--<img src="/assets/services-branding-icon.svg" class="my-image mx-auto">-->
               </div>
-              <h2 class="center text-black">Graphic Design</h2>
+              <h2 class="center text-black mb-1">Graphic Design</h2>
               <p>We are experts at creating graphics that speak to your audience. A well-designed graphic speaks
                   better than words alone. Colors, pictures, and text creatively put together will strike the right
                   emotional response from your viewers. We treat every creative design job as unique.</p>
@@ -115,12 +114,12 @@
       </div>
    </div>
 </div>
-<div class="how-section2">
-    <div class="row">
-        <div class="outer">
+<div class="how-section2 bg-grey-darker centered">
+    <div class="row border-my-grey border-2 border-solid">
+        <div class="outer py-2 px-3">
             <div class="col">
-                <h2 class="text-white">Let's chat about your</br> business objectives.</h2>
-                <hr class="rounded">
+                <h2 class="text-white mb-1">Let's chat about your</br> business objectives.</h2>
+                <hr class="rounded bg-white">
                 <p class="text-white">Many of our clients come to us frustrated with the performance of their current website.
                     Some have spent thousands on web design and development, and aren't seeing the results
                     they expect for the investment they have made.  Others have tried to save money by building
