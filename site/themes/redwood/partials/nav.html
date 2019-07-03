@@ -1,54 +1,43 @@
-<nav class="navbar navbar-redwood">
-    <div class="container-fluid">
+<nav id="mainNavigation" class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent" aria-controls="navbarContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarContent">
 
-        <div class="navbar-header">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-main" aria-expanded="false">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-            </button>
-            <a class="navbar-brand" href="/">{{ site_name }}</a>
-        </div>
+      <ul class="nav">
+  <li><a href="{{ homepage }}"{{ if !segment_1 }} class="current"{{ endif }}>Home</a></li>
+  {{ nav from="/" max_depth="2" exclude="settings|colophon|message|service-area|sitemap" }}
+    <li><a href="{{ url }}"{{ if is_current || is_parent }} class="current">{{ title }} </a>
+     {{ if children }}
+        <ul class="dropdown-menu">
+        {{ children }}
+            <li><a href="{{ url }}"{{ if is_current }} class="current-child"{{ endif }}>{{ title }}</a></li>
+        {{ /children }}
+        </ul>
+    {{ endif }}
+    </li>
+  {{ /nav }}
+</ul>
 
-        <div class="collapse navbar-collapse" id="nav-main">
-            <ul class="nav navbar-nav">
-                {{ nav from="/" include_home="true" scope="tag" }}
-                    <li{{ if is_current or is_parent }} class="active"{{ /if }}>
-                        <a href="{{ url }}">{{ tag:nav_title or title }}
-                        </a>
-                    </li>
-                {{ /nav }}
-            </ul>
-            <!-- not using auth section -->
-            <form class="hidden navbar-form navbar-right" role="search" action="{{ link to='search' }}">
-                <div class="form-group">
-                    <input type="text" class="form-control search" name="q" placeholder="Search">
-                </div>
-            </form>
-            <ul class="hidden nav navbar-nav navbar-right">
-                {{ if logged_in }}
-                    <li><a href="{{ link to='users' }}">Users</a></li>
-                    <li><a href="{{ user:logout_url }}">Log out</a></li>
-                {{ else }}
-                    <li><a href="{{ link to='login' }}">Log in</a></li>
-                    <li><a href="{{ link to='register' }}">Register</a></li>
-                {{ /if }}
-            </ul>
-        </div>
-
-    </div>
-
+    <!--<ul class="navbar-nav mr-auto">
+      {{ nav from="/" max_depth="2" include_home="true" }}
+      {{ if !children }}
+      <li class="nav-item{{ if is_current }} active{{ endif }}">
+        <a class="nav-link" href="{{ url }}">{{ title }}</a>
+      </li>
+      {{ else }}
+      <li class="nav-item dropdown{{ if is_current }} active {{ endif }}">
+        <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}</a>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ id }}">
+          <li><a class="dropdown-item" href="{{ url }}">{{ title }}</a></li>
+          {{ children }}
+          <li><a class="dropdown-item" href="{{ url }}">{{ title }}</a></li>
+          {{ /children }}
+        </ul>
+      </li>
+      {{ endif }}
+      {{ /nav }}
+    </ul>-->
+  </div>
 </nav>
-<nav class="text-center relative p-2">
-    <a href="/" class="font-subheading text-xl leading-loose absolute pin-t pin-l m-2 z-50">
-        {{ site_name }}
-    </a>
-    <a href="/" class="z-50 relative p-1 font-heading font-normal text-4xl opacity-100 hover:opacity-75">
-        {{ section_title or title }}
-    </a>
-</nav>
-<!-- topics nav from storyteller-->
-<!--<a href="/articles/topics" class="absolute pin-t pin-r m-2 z-50 opacity-75 hover:opacity-100 mix-difference">
-    {{ theme:output src="img/tags.svg" }}
-</a>-->
