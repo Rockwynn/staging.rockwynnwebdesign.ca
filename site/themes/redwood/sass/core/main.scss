@@ -1938,19 +1938,19 @@ nav a:hover {
 }
 
 .font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: FreightSans Pro, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .font-heading {
-    font-family: FreightTextPro, Bold;
+  font-family: FreightTextPro, serif;
 }
 
 .font-subheading {
-  font-family: FreightSans Pro, Bold, sans-serif;
+  font-family: FreightTextPro, serif;
 }
 
 .font-serif {
-  font-family: FreightSans Pro, Book, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-family: FreightTextPro, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
 }
 
 .font-mono {
@@ -5072,19 +5072,19 @@ nav a:hover {
   }
 
   .sm\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: FreightSans Pro, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .sm\:font-heading {
-    font-family: FreightTextPro;
+    font-family: FreightTextPro, serif;
   }
 
   .sm\:font-subheading {
-    font-family: FreightSansPro, sans-serif;
+    font-family: FreightTextPro, serif;
   }
 
   .sm\:font-serif {
-    font-family: FreightTextPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: FreightTextPro, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .sm\:font-mono {
@@ -8180,19 +8180,19 @@ nav a:hover {
   }
 
   .lg\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: FreightSans Pro, Bold, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .lg\:font-heading {
-    font-family: FreightTextPro;
+    font-family: FreightTextPro, Bold, serif;
   }
 
   .lg\:font-subheading {
-    font-family: FreightSansPro, sans-serif;
+    font-family: FreightTextPro, serif;
   }
 
   .lg\:font-serif {
-    font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: FreightTextPro, Bold, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .lg\:font-mono {
@@ -11288,19 +11288,21 @@ nav a:hover {
   }
 
   .xl\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: FreightSans Pro, Bold, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .xl\:font-heading {
-    font-family: FreightTextPro;
+    /*font-family: FreightTextPro;*/
+    font-family: FreightTextPro, Bold, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+
   }
 
   .xl\:font-subheading {
-    font-family: FreightSansPro, sans-serif;
+    font-family: FreightTextPro, serif;
   }
 
   .xl\:font-serif {
-    font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: FreightTextPro, Bold, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .xl\:font-mono {

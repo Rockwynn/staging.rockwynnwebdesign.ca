@@ -1939,19 +1939,19 @@ nav a:hover {
 }
 
 .font-sans {
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: FreightSans Pro, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
 }
 
 .font-heading {
-  font-family: FreightTextPro, Bold;
+  font-family: FreightTextPro, serif;
 }
 
 .font-subheading {
-  font-family: FreightSans Pro, Bold, sans-serif;
+  font-family: FreightTextPro, serif;
 }
 
 .font-serif {
-  font-family: FreightSans Pro, Book, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+  font-family: FreightTextPro, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
 }
 
 .font-mono {
@@ -5073,19 +5073,19 @@ nav a:hover {
   }
 
   .sm\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: FreightSans Pro, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .sm\:font-heading {
-    font-family: FreightTextPro;
+    font-family: FreightTextPro, serif;
   }
 
   .sm\:font-subheading {
-    font-family: FreightSansPro, sans-serif;
+    font-family: FreightTextPro, serif;
   }
 
   .sm\:font-serif {
-    font-family: FreightTextPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: FreightTextPro, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .sm\:font-mono {
@@ -8181,19 +8181,19 @@ nav a:hover {
   }
 
   .lg\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: FreightSans Pro, Bold, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .lg\:font-heading {
-    font-family: FreightTextPro;
+    font-family: FreightTextPro, Bold, serif;
   }
 
   .lg\:font-subheading {
-    font-family: FreightSansPro, sans-serif;
+    font-family: FreightTextPro, serif;
   }
 
   .lg\:font-serif {
-    font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: FreightTextPro, Bold, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .lg\:font-mono {
@@ -11289,19 +11289,20 @@ nav a:hover {
   }
 
   .xl\:font-sans {
-    font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    font-family: FreightSans Pro, Bold, sans-serif, -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
   }
 
   .xl\:font-heading {
-    font-family: FreightTextPro;
+    /*font-family: FreightTextPro;*/
+    font-family: FreightTextPro, Bold, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .xl\:font-subheading {
-    font-family: FreightSansPro, sans-serif;
+    font-family: FreightTextPro, serif;
   }
 
   .xl\:font-serif {
-    font-family: FreightSansPro, sans-serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-family: FreightTextPro, Bold, serif, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
   }
 
   .xl\:font-mono {
@@ -13503,7 +13504,7 @@ footer.page p.copyright {
 }
 
 footer.page p.tribute {
-  color: #b8b8b8;
+  color: #939393;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .5em;
@@ -13527,7 +13528,7 @@ footer.page p.tribute {
   text-align: center;
   display: block;
   font-family: "FreightSansPro", sans-serif;
-  color: #b8b8b8;
+  color: #939393;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .5em;
@@ -13563,70 +13564,66 @@ input.giant:active {
   box-shadow: none !important;
 }
 
+/*h3, h4, h5, h6 {
+    font-size:2em;
+    margin:0;
+    padding:0;
+    font-family: FreightTextPro, Bold, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
+    font-weight:normal;
+    letter-spacing: .025em;
+    margin: 0 0 32px -1px;
+}
+h6 { font-weight:700; }
+h5 { font-weight:600; }
+h4 { font-weight:500; }
+h3 { font-weight:400; }*/
+
+h1,
+h2,
 h3,
 h4,
 h5,
 h6 {
-  font-size: 2em;
-  margin: 0;
-  padding: 0;
-  font-family: FreightTextPro, Bold, Constantia, Lucida Bright, Lucidabright, Lucida Serif, Lucida, DejaVu Serif, Bitstream Vera Serif, Liberation Serif, Georgia, serif;
-  font-weight: normal;
-  letter-spacing: .025em;
+  font-family: "FreightTextPro", serif;
+  font-weight: 900;
+  letter-spacing: -.025em;
   margin: 0 0 32px -1px;
 }
 
-h6 {
-  font-weight: 700;
-}
-
-h5 {
-  font-weight: 600;
-}
-
-h4 {
-  font-weight: 500;
-}
-
-h3 {
-  font-weight: 400;
-}
-
-/*h1, h2, h3, h4, h5, h6 {
-	font-family: $font_sans;
-	font-weight: 900;
-	letter-spacing: -.025em;
-	margin: 0 0 $gap -1px;
-}*/
-
 h1 {
   font-size: 60px;
+  font-weight: 700;
 }
 
 h2 {
   font-size: 42px;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 28px;
+  font-weight: 600;
 }
 
 h4 {
   font-size: 20px;
+  font-weight: 600;
 }
 
 h5 {
   font-size: 16px;
+  font-weight: 600;
 }
 
 h6 {
   font-size: 12px;
+  font-weight: 600;
   letter-spacing: .15em;
   text-transform: uppercase;
 }
 
 h6 em {
-  color: #b8b8b8;
+  color: #939393;
   font-style: normal;
 }
 
@@ -13656,7 +13653,7 @@ h6 em {
 .special small {
   display: block;
   font-family: "FreightSansPro", sans-serif;
-  color: #b8b8b8;
+  color: #939393;
   font-size: 13px;
   text-transform: uppercase;
   letter-spacing: .5em;
@@ -13831,7 +13828,7 @@ article.content iframe {
 }
 
 .meta {
-  color: #b8b8b8;
+  color: #939393;
   font-family: "FreightSansPro", sans-serif;
   font-size: 12px;
   margin: 0 0 64px;
@@ -13938,7 +13935,7 @@ hr {
 }
 
 .navbar-redwood .nav {
-  color: #b8b8b8;
+  color: #939393;
   font-family: "FreightSansPro", sans-serif;
   /*font-family: FreightSans Pro, Book, sans-serif;*/
   font-size: 13px;
@@ -13946,7 +13943,7 @@ hr {
 }
 
 .navbar-redwood .nav a {
-  color: #b8b8b8;
+  color: #939393;
   letter-spacing: .1em;
   margin-left: 32px;
   padding: 20px 0;
@@ -13960,7 +13957,7 @@ hr {
   bottom: -3px;
   width: 100%;
   height: 2px;
-  background: #b8b8b8;
+  background: #939393;
   content: '';
   transition: all 100ms ease;
   opacity: 0;
