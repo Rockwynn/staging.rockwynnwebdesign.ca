@@ -14023,6 +14023,10 @@ hr {
   background: #aaa;
 }
 
+.dropdown-menu > .active > a {
+  background-color: transparent;
+}
+
 .tags {
   display: block;
   margin: 0 0 32px;

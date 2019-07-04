@@ -1,7 +1,24 @@
+
+
+
+
+
 <ul class="nav">
+
+
+
     <li><a href="{{ homepage }}"{{ if !segment_1 }} class="current"{{ endif }}>Home</a></li>
+
+
     {{ nav from="/" max_depth="2" exclude="settings|colophon|message|service-area|sitemap" }}
-        <li><a href="{{ url }}"{{ if is_current || is_parent }} class="current">{{ title }} </a>
+
+
+        <li>
+
+
+            <a href="{{ url }}"{{ if is_current || is_parent }} class="current">{{ title }} </a>
+
+
             {{ if children }}
               <ul class="dropdown-menu">
               {{ children }}
@@ -9,6 +26,13 @@
               {{ /children }}
               </ul>
             {{ endif }}
+
+
         </li>
+
+
     {{ /nav }}
+
+
+
 </ul>

@@ -29,10 +29,10 @@
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ id }}">
                             <li>
-                                <a class="dropdown-item" href="{{ url }}">{{ title }}</a>
+                                <!--<a class="dropdown-item" href="{{ url }}">{{ title }}</a> this adds the parent as a clickable child page tab -->
                             </li>
                                 {{ children }}
-                                    <li><a class="dropdown-item" href="{{ url }}">{{ title }}</a></li>
+                                <li{{ if is_current or is_parent }} class="active"{{ /if }}><a class="dropdown-item" href="{{ url }}">{{ title }}</a></li>
                                 {{ /children }}
                             </ul>
                         </li>
