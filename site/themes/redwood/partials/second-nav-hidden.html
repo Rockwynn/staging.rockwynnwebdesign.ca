@@ -21,8 +21,10 @@
                           <a class="nav-link" href="{{ url }}">{{ title }}</a>
                         </li>
                     {{ else }}
+
+
                         <li class="nav-item dropdown{{ if is_current }} active {{ endif }}">
-                            <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}
+                            <a href="#" class="nav-link dropdown-toggle" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}
                                 <span class="caret"></span>
                             </a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ id }}">
