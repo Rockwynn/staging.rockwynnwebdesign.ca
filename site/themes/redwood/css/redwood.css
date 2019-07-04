@@ -13946,7 +13946,7 @@ hr {
   color: #939393;
   letter-spacing: .1em;
   margin-left: 32px;
-  padding: 20px 0;
+  padding: 20px 10px;
   text-transform: uppercase;
   -webkit-backface-visibility: hidden;
 }

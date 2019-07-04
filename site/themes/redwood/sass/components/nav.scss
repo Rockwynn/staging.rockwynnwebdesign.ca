@@ -16,7 +16,10 @@
 		color: $color_light;
 		letter-spacing: .1em;
 		margin-left: 32px;
-		padding: 20px 0;
+        padding-top: 20px;
+        padding-bottom: 20px;
+        padding-left: 10px;
+		/*padding: 20px 0;*/
 		text-transform: uppercase;
 		-webkit-backface-visibility: hidden;
 		&:before {
