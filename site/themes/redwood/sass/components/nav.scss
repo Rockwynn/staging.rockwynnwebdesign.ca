@@ -9,7 +9,7 @@
 		font-family: $font_sans;
         /*font-family: FreightSans Pro, Book, sans-serif;*/
 		font-size: 13px;
-		overflow: hidden;
+		/*overflow: hidden; this was causing dropdown to not open visibly, i could see the spot in inspector*/
 	}
 
 	.nav a {

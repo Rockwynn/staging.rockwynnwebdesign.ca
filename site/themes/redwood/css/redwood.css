@@ -13939,7 +13939,7 @@ hr {
   font-family: "FreightSansPro", sans-serif;
   /*font-family: FreightSans Pro, Book, sans-serif;*/
   font-size: 13px;
-  overflow: hidden;
+  /*overflow: hidden; this was causing dropdown to not open visibly, i could see the spot in inspector*/
 }
 
 .navbar-redwood .nav a {
