@@ -13,19 +13,111 @@
 
         <div class="collapse navbar-collapse" id="nav-main">
             <ul class="nav navbar-nav">
-                {{ nav from="/" include_home="true" scope="tag" }}
+
+                {{ nav from="/" max_depth="2" include_home="true" scope="tag" }}
+
+                    {{ if !children }}
+                        <li class="nav-item{{ if is_current }} active{{ endif }}">
+                          <a class="nav-link" href="{{ url }}">{{ title }}</a>
+                        </li>
+                    {{ else }}
+                        <li class="nav-item dropdown{{ if is_current }} active {{ endif }}">
+                            <a href="#" class="nav-link dropdown-toggle" href="#" id="navbarDropdown{{ id }}" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">{{ title }}
+                                <span class="caret"></span>
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdown{{ id }}">
+                            <li>
+                                <a class="dropdown-item" href="{{ url }}">{{ title }}</a>
+                            </li>
+                                {{ children }}
+                                    <li><a class="dropdown-item" href="{{ url }}">{{ title }}</a></li>
+                                {{ /children }}
+                            </ul>
+                        </li>
+                    {{ endif }}
+                {{ /nav }}
+
+
+            </ul>
+
+
+
+
+                <!--{{ if children }}
+                                     {{ children }}
+                                     <li{{ if is_current or is_parent }} class="active"{{ /if }}>
+                                         <a href="{{ url }}">{{ tag:nav_title or title }}</a>
+                                     </li>
+                                     {{ /children }}
+                                   {{ else }}
+                                   <li{{ if is_current or is_parent }} class="active"{{ /if }}>
+                                       <a href="{{ url }}">{{ tag:nav_title or title }}</a>
+                                   </li>
+                                   {{ endif }}
+                               {{ /nav }}-->
+
+
+                <!--<li class="nav-link{{ if children }} more{{ endif }}">
+                      <a href="{{ url }}">{{ title|smartypants|widont }}</a>
+                      {{ if children }}
+                      <ul class="submenu">
+                        {{ *recursive children* }}
+                      </ul>
+                      {{ endif }}
+                    </li>
+                    {{ /nav }}-->
+
+                <!--<li class="divider"></li>
+			      	<li class="{{ if is_current or is_parent }}active {{ endif }}{{ if children }}has-dropdown {{ endif }}">
+			      	  <a {{ if children}}{{ else }}href="{{ url }}"{{ endif }}>{{ title }}</a>
+			      	  {{ if children }}
+			      	  <ul class="dropdown">
+			      	    {{children}}
+			      	    <li>
+			      	      <a href="{{ url }}">{{ title }}</a>
+			      	    </li>
+			      	    {{/children}}
+			      	   </ul>
+			      	   {{ endif }}
+			      	 </li>
+			      	{{ /nav }}
+			        <li class="divider"></li>-->
+
+
+
+
+
+
+                <!--{{ nav from="/" include_home="true" scope="tag" }}
                 <li{{ if is_current or is_parent }} class="active"{{ /if }}>
                     <a href="{{ url }}">{{ tag:nav_title or title }}
                     </a>
                 </li>
-                {{ /nav }}
-                <li><a href="{{ link to='web-design-process' }}">Web Design Process</a></li>
+                {{ /nav }}-->
+                <!--<li><a href="{{ link to='web-design-process' }}">Web Design Process</a></li>
                 <li><a href="{{ link to='web-design-agreement' }}">Web Design Agreement</a></li>
                 <li><a href="{{ link to='hosting-and-maintenance' }}">Hosting and Maintenance</a></li>
                 <li><a href="{{ link to='terms-of-use' }}">Terms of Use</a></li>
                 <li><a href="{{ link to='privacy-policy' }}">Privacy Policy</a></li>
-                <li><a href="{{ link to='sitemap' }}">Sitemap</a></li>
-            </ul>
+                <li><a href="{{ link to='sitemap' }}">Sitemap</a></li>-->
+
+                <!--{{ nav from="/" max_depth="2" include_home="true" }}-->
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
             <!-- not using auth section -->
             <form class=" hidden navbar-form navbar-right" role="search" action="{{ link to='search' }}">

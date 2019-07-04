@@ -1,6 +1,5 @@
-<nav class="navbar navbar-redwood">
+<nav class="navbar navbar-redwood mb-0">
     <div class="container-fluid">
-
         <div class="navbar-header">
             <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#nav-main" aria-expanded="false">
                 <span class="sr-only">Toggle navigation</span>
@@ -10,18 +9,23 @@
             </button>
             <a class="navbar-brand" href="/">{{ site_name }}</a>
         </div>
-
         <div class="collapse navbar-collapse" id="nav-main">
             <ul class="nav navbar-nav">
-                {{ nav from="/" include_home="true" scope="tag" }}
-                    <li{{ if is_current or is_parent }} class="active"{{ /if }}>
-                        <a href="{{ url }}">{{ tag:nav_title or title }}
-                        </a>
-                    </li>
+                                {{ nav from="/" include_home="true" scope="tag" }}
+                <li{{ if is_current or is_parent }} class="active"{{ /if }}>
+                    <a href="{{ url }}">{{ tag:nav_title or title }}
+                    </a>
+                </li>
                 {{ /nav }}
+                <li><a href="{{ link to='web-design-process' }}">Web Design Process</a></li>
+                <li><a href="{{ link to='web-design-agreement' }}">Web Design Agreement</a></li>
+                <li><a href="{{ link to='hosting-and-maintenance' }}">Hosting and Maintenance</a></li>
+                <li><a href="{{ link to='terms-of-use' }}">Terms of Use</a></li>
+                <li><a href="{{ link to='privacy-policy' }}">Privacy Policy</a></li>
+                <li><a href="{{ link to='sitemap' }}">Sitemap</a></li>
             </ul>
-            <!-- not using auth section -->
-            <form class="hidden navbar-form navbar-right" role="search" action="{{ link to='search' }}">
+                        <!-- not using auth section -->
+            <form class=" hidden navbar-form navbar-right" role="search" action="{{ link to='search' }}">
                 <div class="form-group">
                     <input type="text" class="form-control search" name="q" placeholder="Search">
                 </div>
@@ -36,11 +40,9 @@
                 {{ /if }}
             </ul>
         </div>
-
     </div>
-
 </nav>
-<nav class="text-center relative p-2">
+<nav class="hidden text-center relative p-2">
     <a href="/" class="font-subheading text-xl leading-loose absolute pin-t pin-l m-2 z-50">
         {{ site_name }}
     </a>
@@ -48,7 +50,3 @@
         {{ section_title or title }}
     </a>
 </nav>
-<!-- topics nav from storyteller-->
-<!--<a href="/articles/topics" class="absolute pin-t pin-r m-2 z-50 opacity-75 hover:opacity-100 mix-difference">
-    {{ theme:output src="img/tags.svg" }}
-</a>-->
