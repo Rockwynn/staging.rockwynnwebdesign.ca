@@ -25,7 +25,11 @@ images:
 - portfolio/portfolio_browns-quarry-full-page-ad.jpg
 - portfolio/old_site_portfolio_bakers_landing_original.jpg
 - portfolio/old_rwd_site_portfolio.jpg
-
+- portfolio/amiresponsive-bq.jpg
+- portfolio/amiresponsive-rwd.png
+- portfolio/bq-portfolio-header.jpg
+- portfolio/rwd-home-half.jpg
+- portfolio/amiresponsive-rwd-new.jpg
 
 
 
