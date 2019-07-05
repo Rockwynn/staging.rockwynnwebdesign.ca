@@ -29,9 +29,4 @@ routes:
     template: sitemap
     layout: sitemap
     content_type: xml
-  /info/hosting-and-maintenance: footer-nav-links/hosting-and-maintenance
-  /info/privacy-policy: footer-nav-links/privacy-policy
-  /info/sitemap: footer-nav-links/sitemap
-  /info/terms-of-use: footer-nav-links/terms-of-use
-  /info/web-design-agreement: footer-nav-links/web-design-agreement
-  /info/web-design-process: footer-nav-links/web-design-process
+ 
