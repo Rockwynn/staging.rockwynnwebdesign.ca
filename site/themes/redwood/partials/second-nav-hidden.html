@@ -42,87 +42,8 @@
 
             </ul>
 
-
-
-
-                <!--{{ if children }}
-                                     {{ children }}
-                                     <li{{ if is_current or is_parent }} class="active"{{ /if }}>
-                                         <a href="{{ url }}">{{ tag:nav_title or title }}</a>
-                                     </li>
-                                     {{ /children }}
-                                   {{ else }}
-                                   <li{{ if is_current or is_parent }} class="active"{{ /if }}>
-                                       <a href="{{ url }}">{{ tag:nav_title or title }}</a>
-                                   </li>
-                                   {{ endif }}
-                               {{ /nav }}-->
-
-
-                <!--<li class="nav-link{{ if children }} more{{ endif }}">
-                      <a href="{{ url }}">{{ title|smartypants|widont }}</a>
-                      {{ if children }}
-                      <ul class="submenu">
-                        {{ *recursive children* }}
-                      </ul>
-                      {{ endif }}
-                    </li>
-                    {{ /nav }}-->
-
-                <!--<li class="divider"></li>
-			      	<li class="{{ if is_current or is_parent }}active {{ endif }}{{ if children }}has-dropdown {{ endif }}">
-			      	  <a {{ if children}}{{ else }}href="{{ url }}"{{ endif }}>{{ title }}</a>
-			      	  {{ if children }}
-			      	  <ul class="dropdown">
-			      	    {{children}}
-			      	    <li>
-			      	      <a href="{{ url }}">{{ title }}</a>
-			      	    </li>
-			      	    {{/children}}
-			      	   </ul>
-			      	   {{ endif }}
-			      	 </li>
-			      	{{ /nav }}
-			        <li class="divider"></li>-->
-
-
-
-
-
-
-                <!--{{ nav from="/" include_home="true" scope="tag" }}
-                <li{{ if is_current or is_parent }} class="active"{{ /if }}>
-                    <a href="{{ url }}">{{ tag:nav_title or title }}
-                    </a>
-                </li>
-                {{ /nav }}-->
-                <!--<li><a href="{{ link to='web-design-process' }}">Web Design Process</a></li>
-                <li><a href="{{ link to='web-design-agreement' }}">Web Design Agreement</a></li>
-                <li><a href="{{ link to='hosting-and-maintenance' }}">Hosting and Maintenance</a></li>
-                <li><a href="{{ link to='terms-of-use' }}">Terms of Use</a></li>
-                <li><a href="{{ link to='privacy-policy' }}">Privacy Policy</a></li>
-                <li><a href="{{ link to='sitemap' }}">Sitemap</a></li>-->
-
-                <!--{{ nav from="/" max_depth="2" include_home="true" }}-->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
             <!-- not using auth section -->
-            <form class=" hidden navbar-form navbar-right" role="search" action="{{ link to='search' }}">
+            <!--<form class=" hidden navbar-form navbar-right" role="search" action="{{ link to='search' }}">
                 <div class="form-group">
                     <input type="text" class="form-control search" name="q" placeholder="Search">
                 </div>
@@ -135,15 +56,15 @@
                     <li><a href="{{ link to='login' }}">Log in</a></li>
                     <li><a href="{{ link to='register' }}">Register</a></li>
                 {{ /if }}
-            </ul>
+            </ul>-->
         </div>
     </div>
 </nav>
-<nav class="hidden text-center relative p-2">
+<!--<nav class="hidden text-center relative p-2">
     <a href="/" class="font-subheading text-xl leading-loose absolute pin-t pin-l m-2 z-50">
         {{ site_name }}
     </a>
     <a href="/" class="z-50 relative p-1 font-heading font-normal text-4xl opacity-100 hover:opacity-75">
         {{ section_title or title }}
     </a>
-</nav>
+</nav>-->
