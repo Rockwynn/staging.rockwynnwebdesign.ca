@@ -1,3 +1,26 @@
+
+
+{{ nav from="/" max_depth="3" exclude="404|sitemap" include_entries="true" }}
+  <url>
+    <loc>{{ _site_url }}{{ url }}</loc>
+    <lastmod>{{ last_modified format="Y-m-d" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {{ if children }}
+  {{ children }}
+  <url>
+    <loc>{{ _site_url }}{{ url }}</loc>
+    <lastmod>{{ last_modified format="Y-m-d" }}</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.8</priority>
+  </url>
+  {{ /children }}
+  {{ endif }}
+{{ /nav }}
+
+
+
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   {{ nav from="/" include_home="true" }}
   <url>
