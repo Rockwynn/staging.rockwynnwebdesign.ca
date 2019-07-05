@@ -117,7 +117,8 @@ footer.article-footer {
 
 footer.page {
     background: #fff;
-	padding: ($gap * 2) 0;
+	padding-top: ($gap);
+	/*padding: ($gap * 2) 0;*/
 	text-align: center;
 	p.copyright {
 		font-family: $font_sans;

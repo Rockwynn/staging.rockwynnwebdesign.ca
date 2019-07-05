@@ -13498,7 +13498,8 @@ footer.article-footer {
 
 footer.page {
   background: #fff;
-  padding: 64px 0;
+  padding-top: 32px;
+  /*padding: ($gap * 2) 0;*/
   text-align: center;
 }
 
@@ -13902,6 +13903,12 @@ hr {
 
 .list-style-none {
   list-style-type: none;
+}
+
+.phone,
+.phone a:hover,
+phone a:focus {
+  text-decoration: none;
 }
 
 .btn,
