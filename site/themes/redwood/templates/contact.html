@@ -35,11 +35,12 @@
 
             <div class="form-group">
                 <label>Phone</label>
-                <input type="text" name="phone" value="{{ old:phone }}" Placeholder="Phone Number" class="form-control" />
+                <input type="text" name="phone" value="{{ old:phone }}" placeholder="Phone Number" class="form-control" />
             </div>
 
-            <div class="form-group">
-                <input type="hidden" name="state"/>
+            <div class="state form-group">
+                <label>State</label>
+                <input type="text" name="state" value="(( old:state ))" placeholder="State" class="state" />
             </div>
 
             <div class="form-group">
