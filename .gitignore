@@ -6,3 +6,6 @@ local/cache/*
 local/storage/*
 local/temp/*
 installer.php
+statamic/composer.lock
+yarn.lock
+site/themes/redwood/yarn.lock

@@ -22,4 +22,5 @@ elixir(function(mix) {
         'vendor/zoom.js',
         'jabbascripts.js'
     ], './js/redwood.js');
+    mix.browserSync({ proxy: 'staging.rockwyynnwebdesign.ca.test'});
 });
