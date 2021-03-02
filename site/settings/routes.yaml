@@ -29,4 +29,3 @@ routes:
     template: sitemap
     layout: sitemap
     content_type: xml
- 
